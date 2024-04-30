@@ -1,0 +1,2423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="nuo-backend-nucleo:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="da4f7c60-11de-4d50-a95d-a1febcf3f99b" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/nuo-backend-nucleo.jar" afterPath="$PROJECT_DIR$/out/artifacts/nuo-backend-nucleo.jar" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/nlp/NuoQuestionParser.scala" afterPath="$PROJECT_DIR$/src/main/scala/nlp/NuoQuestionParser.scala" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/nlp/grammar/NuoEvaEnglishListener.scala" afterPath="$PROJECT_DIR$/src/main/scala/nlp/grammar/NuoEvaEnglishListener.scala" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/nlp/grammar/evaEnglish.g4" afterPath="$PROJECT_DIR$/src/main/scala/nlp/grammar/evaEnglish.g4" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/nlp/parser/evaEnglish.tokens" afterPath="$PROJECT_DIR$/src/main/scala/nlp/parser/evaEnglish.tokens" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/nlp/parser/evaEnglishBaseListener.java" afterPath="$PROJECT_DIR$/src/main/scala/nlp/parser/evaEnglishBaseListener.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/nlp/parser/evaEnglishBaseVisitor.java" afterPath="$PROJECT_DIR$/src/main/scala/nlp/parser/evaEnglishBaseVisitor.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/nlp/parser/evaEnglishLexer.java" afterPath="$PROJECT_DIR$/src/main/scala/nlp/parser/evaEnglishLexer.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/nlp/parser/evaEnglishLexer.tokens" afterPath="$PROJECT_DIR$/src/main/scala/nlp/parser/evaEnglishLexer.tokens" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/nlp/parser/evaEnglishListener.java" afterPath="$PROJECT_DIR$/src/main/scala/nlp/parser/evaEnglishListener.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/nlp/parser/evaEnglishParser.java" afterPath="$PROJECT_DIR$/src/main/scala/nlp/parser/evaEnglishParser.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/nlp/parser/evaEnglishVisitor.java" afterPath="$PROJECT_DIR$/src/main/scala/nlp/parser/evaEnglishVisitor.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/data/test_cases/FieldsAndCriteriaSection.txt" afterPath="$PROJECT_DIR$/src/test/data/test_cases/FieldsAndCriteriaSection.txt" />
+      <change beforePath="$PROJECT_DIR$/src/test/data/test_cases/FieldsAndCriteriaSection.txt_Test" afterPath="$PROJECT_DIR$/src/test/data/test_cases/FieldsAndCriteriaSection.txt_Test" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/NuoQuestionParser$.class" afterPath="$PROJECT_DIR$/target/classes/nlp/NuoQuestionParser$.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$10.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$10.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$11$$anonfun$apply$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$11.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$11.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$12.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$12.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$13.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$13.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$14.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$14.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$15.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$15.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$16.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$16.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$5.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$5.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$6.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$6.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$7.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$7.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$8.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$8.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$9.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$9.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitDuration$1.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitDuration$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldArticle$1.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldArticle$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldDivFunction$1.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldDivFunction$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldDivFunction$2.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldDivFunction$2.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldDivFunction$3.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldDivFunction$3.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldDivFunction$4.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldDivFunction$4.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldDivFunction$5.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldDivFunction$5.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldDivFunction$6.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldDivFunction$6.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldDivFunction$7$$anonfun$apply$7.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldDivFunction$7$$anonfun$apply$7.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldDivFunction$7.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldDivFunction$7.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldDivFunction$8.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldDivFunction$8.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldOneArgFunction$1.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldOneArgFunction$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldOperationDuration$1.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldOperationDuration$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldOperationMinus$1.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldOperationMinus$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldOperationMinus$2.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldOperationMinus$2.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldOperationMinus$3.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldOperationMinus$3.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldOperationMinus$4.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldOperationMinus$4.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldOperationMinus$5$$anonfun$apply$3.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldOperationMinus$5$$anonfun$apply$3.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldOperationMinus$5.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldOperationMinus$5.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldOperationMinus$6.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldOperationMinus$6.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldOperationOther$1.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldOperationOther$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldOperationOther$2.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldOperationOther$2.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldOperationOther$3.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldOperationOther$3.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldOperationOther$4.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldOperationOther$4.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldOperationOther$5$$anonfun$apply$4.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldOperationOther$5$$anonfun$apply$4.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldOperationOther$5.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldOperationOther$5.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldOperationOther$6.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldOperationOther$6.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldOperationPlus$1.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldOperationPlus$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldOperationPlus$2.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldOperationPlus$2.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldOperationPlus$3.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldOperationPlus$3.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldOperationPlus$4.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldOperationPlus$4.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldOperationPlus$5$$anonfun$apply$2.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldOperationPlus$5$$anonfun$apply$2.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldOperationPlus$5.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldOperationPlus$5.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldOperationPlus$6.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldOperationPlus$6.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldParen$1.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldParen$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldSubstrFunction$1.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldSubstrFunction$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldSubstrFunction$2.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldSubstrFunction$2.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldSubstrFunction$3.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldSubstrFunction$3.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldSubstrFunction$4.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldSubstrFunction$4.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldSubstrFunction$5.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldSubstrFunction$5.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldSubstrFunction$6$$anonfun$apply$5.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldSubstrFunction$6$$anonfun$apply$5.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldSubstrFunction$6.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldSubstrFunction$6.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldSubstrFunction$7.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldSubstrFunction$7.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldTwoArgFunction$1.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldTwoArgFunction$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldTwoArgFunction$2.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldTwoArgFunction$2.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldTwoArgFunction$3.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldTwoArgFunction$3.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldTwoArgFunction$4.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldTwoArgFunction$4.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldTwoArgFunction$5.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldTwoArgFunction$5.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldTwoArgFunction$6$$anonfun$apply$6.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldTwoArgFunction$6$$anonfun$apply$6.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldTwoArgFunction$6.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldTwoArgFunction$6.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldTwoArgFunction$7.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitFieldTwoArgFunction$7.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitWhereBetween$1.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitWhereBetween$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitWhereEq$1.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitWhereEq$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitWhereGt$1.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitWhereGt$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitWhereGtEq$1.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitWhereGtEq$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitWhereLt$1.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitWhereLt$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitWhereLtEq$1.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitWhereLtEq$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitWhereStringFunctions$1.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$exitWhereStringFunctions$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$nuoStorageEntities$1.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$nuoStorageEntities$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$nuoStorageFields$1$$anonfun$apply$8.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$nuoStorageFields$1$$anonfun$apply$8.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$nuoStorageFields$1.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$nuoStorageFields$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$recognizeNumberField$1.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$recognizeNumberField$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$recognizeRankField$1.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$recognizeRankField$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$recognizeRankField$2.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$recognizeRankField$2.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$recognizeRankField$3.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$recognizeRankField$3.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$recognizeWhereClause$1.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$recognizeWhereClause$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$recognizeWhereClause$2.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$recognizeWhereClause$2.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$recognizeWhereClause$3.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$$anonfun$recognizeWhereClause$3.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$AwsDetails$.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$AwsDetails$.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$BucketName$.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$BucketName$.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$Client$.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$Client$.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$GcpCredentialsDir$.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$GcpCredentialsDir$.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$MetadataTable$.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$MetadataTable$.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$RecognitionResult$.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$RecognitionResult$.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$RecognitionResult.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$RecognitionResult.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$RecognizedRankField$.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$RecognizedRankField$.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$RecognizedRankField.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$RecognizedRankField.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$RecognizedWhereClause$.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$RecognizedWhereClause$.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$RecognizedWhereClause.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener$RecognizedWhereClause.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener.class" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/NuoEvaEnglishListener.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/grammar/evaEnglish.g4" afterPath="$PROJECT_DIR$/target/classes/nlp/grammar/evaEnglish.g4" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglish.tokens" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglish.tokens" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishBaseListener.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishBaseListener.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishBaseVisitor.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishBaseVisitor.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishLexer.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishLexer.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishLexer.tokens" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishLexer.tokens" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishListener.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishListener.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$AggFieldAvgContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$AggFieldAvgContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$AggFieldCountContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$AggFieldCountContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$AggFieldMaxContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$AggFieldMaxContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$AggFieldMinContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$AggFieldMinContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$AggFieldSumContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$AggFieldSumContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$AggNumberAvgContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$AggNumberAvgContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$AggNumberCountContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$AggNumberCountContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$AggNumberMaxContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$AggNumberMaxContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$AggNumberMinContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$AggNumberMinContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$AggNumberSumContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$AggNumberSumContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$AggregateFieldContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$AggregateFieldContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$AggregateNumberContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$AggregateNumberContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$ArticleContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$ArticleContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$CommandSelectContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$CommandSelectContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$ComparisionPhrasesContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$ComparisionPhrasesContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$CriteriaAndContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$CriteriaAndContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$CriteriaNegativeContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$CriteriaNegativeContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$CriteriaOrContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$CriteriaOrContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$CriteriaPositiveContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$CriteriaPositiveContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$CriteriaWhereDefaultContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$CriteriaWhereDefaultContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$CriteriaWhereNegativeContext.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$CriteriaWhereOrphanDefaultContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$CriteriaWhereOrphanDefaultContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$CriteriaWhereOrphanNegativeContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$CriteriaWhereOrphanNegativeContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$DateAdjNumContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$DateAdjNumContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$DateAdvDayContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$DateAdvDayContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$DateContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$DateContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$DateDefaultContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$DateDefaultContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$DateFieldContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$DateFieldContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$DateFieldDateOnlyContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$DateFieldDateOnlyContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$DateFieldDateTimeContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$DateFieldDateTimeContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$DateFieldTimeOnlyContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$DateFieldTimeOnlyContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$DayOfMonthContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$DayOfMonthContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$DurationContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$DurationContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$DurationFieldContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$DurationFieldContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$DurationFieldNextContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$DurationFieldNextContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$DurationFieldPastContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$DurationFieldPastContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$FieldAggContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$FieldAggContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$FieldArticleContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$FieldArticleContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$FieldContentContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$FieldContentContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$FieldContentDefaultContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$FieldContentDefaultContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$FieldContentQualifiedContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$FieldContentQualifiedContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$FieldContentQuotedContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$FieldContentQuotedContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$FieldContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$FieldContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$FieldDateContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$FieldDateContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$FieldDefaultContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$FieldDefaultContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$FieldDivFunctionContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$FieldDivFunctionContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$FieldDurationContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$FieldDurationContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$FieldListContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$FieldListContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$FieldNumberContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$FieldNumberContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$FieldOneArgFunctionContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$FieldOneArgFunctionContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$FieldOperationDurationContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$FieldOperationDurationContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$FieldOperationMinusContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$FieldOperationMinusContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$FieldOperationOtherContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$FieldOperationOtherContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$FieldOperationPlusContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$FieldOperationPlusContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$FieldParenContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$FieldParenContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$FieldSubstrFunctionContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$FieldSubstrFunctionContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$FieldTwoArgFunctionContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$FieldTwoArgFunctionContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$FunctionOneArgContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$FunctionOneArgContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$FunctionTwoArgsContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$FunctionTwoArgsContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$NegativeVerbContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$NegativeVerbContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$NumberAggContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$NumberAggContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$NumberBContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$NumberBContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$NumberDefaultContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$NumberDefaultContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$NumberFieldContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$NumberFieldContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$NumberKContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$NumberKContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$NumberMContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$NumberMContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$NumberTContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$NumberTContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$OverClauseContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$OverClauseContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$OverClauseOrdPartContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$OverClauseOrdPartContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$OverClausePartOrdContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$OverClausePartOrdContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$PositiveVerbContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$PositiveVerbContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$RankFieldContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$RankFieldContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$RankFieldDefaultContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$RankFieldDefaultContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$RankFieldFirstContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$RankFieldFirstContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$RankFieldFollowingContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$RankFieldFollowingContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$RankFieldLastContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$RankFieldLastContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$RankFieldLeadingContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$RankFieldLeadingContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$RankFieldNthContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$RankFieldNthContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$RankFieldNthInverseContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$RankFieldNthInverseContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$TimeAmPmDefaultContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$TimeAmPmDefaultContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$TimeAmPmHourContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$TimeAmPmHourContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$TimeCompleteContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$TimeCompleteContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$TimeContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$TimeContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$TimePartialContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$TimePartialContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$TimeTzContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$TimeTzContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$TimeZoneContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$TimeZoneContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$UnavailablePhrasesContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$UnavailablePhrasesContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$WhereBetweenContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$WhereBetweenContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$WhereClauseContentContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$WhereClauseContentContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$WhereClauseOrphanContentContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$WhereClauseOrphanContentContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$WhereDateEqContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$WhereDateEqContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$WhereDefaultContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$WhereDefaultContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$WhereDefaultNegativeContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$WhereDefaultNegativeContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$WhereDurationContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$WhereDurationContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$WhereEqContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$WhereEqContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$WhereGtContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$WhereGtContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$WhereGtEqContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$WhereGtEqContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$WhereLtContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$WhereLtContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$WhereLtEqContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$WhereLtEqContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$WhereOrphanBetweenContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$WhereOrphanBetweenContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$WhereOrphanEqContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$WhereOrphanEqContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$WhereOrphanGtContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$WhereOrphanGtContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$WhereOrphanGtEqContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$WhereOrphanGtEqContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$WhereOrphanLtContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$WhereOrphanLtContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$WhereOrphanLtEqContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$WhereOrphanLtEqContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$WhereStringFunctionsContext.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser$WhereStringFunctionsContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishParser.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishVisitor.class" afterPath="$PROJECT_DIR$/target/classes/nlp/parser/evaEnglishVisitor.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test_cases/FieldsAndCriteriaSection.txt" afterPath="$PROJECT_DIR$/target/test-classes/test_cases/FieldsAndCriteriaSection.txt" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test_cases/FieldsAndCriteriaSection.txt_Test" afterPath="$PROJECT_DIR$/target/test-classes/test_cases/FieldsAndCriteriaSection.txt_Test" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/nuo-backend-nucleo$Test.coverage" NAME="Test Coverage Results" MODIFIED="1492631737998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/nuo-analyzer$Test.coverage" NAME="Test Coverage Results" MODIFIED="1492108837126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/nuo_backend_nucleo$NuoRequestHandler.coverage" NAME="NuoRequestHandler Coverage Results" MODIFIED="1524513513608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>execution.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/nuo_backend_nucleo$NuoQuestionParser.coverage" NAME="NuoQuestionParser Coverage Results" MODIFIED="1545000685912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>nlp.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/nuo-backend-nucleo$NuoQuestionParser.coverage" NAME="NuoQuestionParser Coverage Results" MODIFIED="1516469388263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>nlp.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myFlattenPackages" value="true" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="srcFiles">
+      <favorite_root url="file://$PROJECT_DIR$/src/main/scala/action" module="nuo-backend-nucleo" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+        <favorite_root url="file://$PROJECT_DIR$/src/main/scala/action/NuoDML.scala" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/src/main/scala/action/NuoLoop.scala" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/src/main/scala/action/NuoStorage.scala" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/src/main/scala/action/NuoExpressionAndVariable.scala" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/src/main/scala/action/NuoExternalAndUIFunctions.scala" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      </favorite_root>
+      <favorite_root url="file://$PROJECT_DIR$/src/main/scala/canvas" module="nuo-backend-nucleo" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+        <favorite_root url="file://$PROJECT_DIR$/src/main/scala/canvas/NuoFunction.scala" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/src/main/scala/canvas/NuoModifier.scala" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/src/main/scala/canvas/NuoDataTypeHandler.scala" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      </favorite_root>
+      <favorite_root url="file://$PROJECT_DIR$/src/main/scala/client" module="nuo-backend-nucleo" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+        <favorite_root url="file://$PROJECT_DIR$/src/main/scala/client/NuoBqClient.scala" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/src/main/scala/client/NuoS3Client.scala" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/src/main/scala/client/NuoGcsClient.scala" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/src/main/scala/client/NuoHttpClient.scala" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/src/main/scala/client/NuoDataflowClient.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/src/main/scala/client/NuoDataflowClient.scala" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/src/main/scala/client/NuoSecurityClient.scala" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      </favorite_root>
+      <favorite_root url="file://$PROJECT_DIR$/src/main/scala/dag" module="nuo-backend-nucleo" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+        <favorite_root url="file://$PROJECT_DIR$/src/main/scala/dag/NuoDag.scala" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/src/main/scala/dag/NuoDagProcessor.scala" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/src/main/scala/dag/NuoDagExecutionManager.scala" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/src/main/scala/dag/NuoActionPatternMatcher.scala" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      </favorite_root>
+      <favorite_root url="file://$PROJECT_DIR$/src/main/scala/logging" module="nuo-backend-nucleo" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+        <favorite_root url="file://$PROJECT_DIR$/src/main/scala/logging/NuoLogger.scala" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      </favorite_root>
+      <favorite_root url="file://$PROJECT_DIR$/src/main/scala/META-INF" module="nuo-backend-nucleo" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+        <favorite_root url="file://$PROJECT_DIR$/src/main/scala/META-INF/MANIFEST.MF" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      </favorite_root>
+      <favorite_root url="file://$PROJECT_DIR$/src/main/scala/metadata" module="nuo-backend-nucleo" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+        <favorite_root url="file://$PROJECT_DIR$/src/main/scala/metadata/RunMetadata.scala" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/src/main/scala/metadata/ChartMetadata.scala" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/src/main/scala/metadata/CanvasMetadata.scala" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/src/main/scala/metadata/AccountMetadata.scala" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/src/main/scala/metadata/StorageMetadata.scala" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/src/main/scala/metadata/VariableMetadata.scala" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      </favorite_root>
+      <favorite_root url="file://$PROJECT_DIR$/src/main/scala/server" module="nuo-backend-nucleo" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+        <favorite_root url="file://$PROJECT_DIR$/src/main/scala/server/ApiEntry.scala" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      </favorite_root>
+    </favorites_list>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="NuoRequestHandler.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/execution/NuoRequestHandler.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="187" column="54" lean-forward="false" selection-start-line="187" selection-start-column="22" selection-end-line="187" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="evaEnglish.g4" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/nlp/grammar/evaEnglish.g4">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="403">
+              <caret line="116" column="61" lean-forward="false" selection-start-line="116" selection-start-column="61" selection-end-line="116" selection-end-column="61" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NuoQuestionTest.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/NuoQuestionTest.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="45" column="68" lean-forward="false" selection-start-line="45" selection-start-column="68" selection-end-line="45" selection-end-column="68" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NuoEvaEnglishListener.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/nlp/grammar/NuoEvaEnglishListener.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="48" column="17" lean-forward="false" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NuoRecognitionMetadata.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/metadata/NuoRecognitionMetadata.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1632">
+              <caret line="96" column="56" lean-forward="false" selection-start-line="96" selection-start-column="56" selection-end-line="96" selection-end-column="56" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NuoQuestionParser.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/nlp/NuoQuestionParser.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="75" column="27" lean-forward="false" selection-start-line="75" selection-start-column="27" selection-end-line="75" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Singleton" />
+        <option value="Scala_Object_New" />
+        <option value="Class" />
+        <option value="Package Object" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>getCondtionalExp</find>
+      <find>getConditionalExp</find>
+      <find>Conditional</find>
+      <find>sumCase</find>
+      <find>mkString(&quot; OR &quot;)</find>
+      <find>s&quot;${ctx.value} OR &quot; + ctx.criteriaClause().asScala.map(_.defaultValue).mkString(&quot; OR &quot;)</find>
+      <find>getConditionalWhereValueAndType</find>
+      <find>ctx.fieldType  = conditionExpResult._2</find>
+      <find>var conditionExpResult =</find>
+      <find>ConditionalCount</find>
+      <find>getConditionalCountExp</find>
+      <find>((SYM_COMMA | KWD_OR) (criteriaClause | field))</find>
+      <find>GtEq</find>
+      <find>(KWD_WITHOUT | negativeVerb)</find>
+      <find>=(</find>
+      <find>getConditionalWhereValueAndType(ctx.value, ctx.fieldType, ctx.criteriaClause())</find>
+      <find>negativeVerb</find>
+      <find>prefixNegVerb</find>
+      <find>(SYM_COMMA | KWD_OR)</find>
+      <find>Between</find>
+      <find>WhereBetween</find>
+      <find>WhereDura</find>
+      <find>WhereDefault</find>
+      <find>WhereGt</find>
+      <find>criteriaClause</find>
+      <find>getConditionalWhereValueAndType(ctx.value, ctx.fieldType, ctx.criteriaClause(), ctx.KWD_WITHOUT() != null || ctx.prefixNegVerb != null)</find>
+      <find>subNegVerb</find>
+      <find>WhereDateEq</find>
+      <find>SYM_COMMA</find>
+      <find>EXCEPT</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>.SSS</replace>
+      <replace>secondsText</replace>
+      <replace>NuoLogger.printInfo</replace>
+      <replace>ele.TargetField.isEmpty || ele.TargetField.get.trim.isEmpty || ele.SourceField.get.EntityName.equalsIgnoreCase(ele.TargetField.get.EntityName)</replace>
+      <replace>ele.TargetField.isEmpty || ele.TargetField.get.EntityName.trim.isEmpty</replace>
+      <replace>&lt;emphasis level=&quot;strong&quot;&gt;boven&lt;/emphasis&gt;</replace>
+      <replace>boven</replace>
+      <replace>break time=&quot;750ms&quot;</replace>
+      <replace>time=&quot;250ms&quot;</replace>
+      <replace>break time=&quot;500ms&quot;</replace>
+      <replace>Total Amount</replace>
+      <replace>dateField</replace>
+      <replace>durationField</replace>
+      <replace>recordAlias</replace>
+      <replace>recordAlias(</replace>
+      <replace>250</replace>
+      <replace>ctx.fieldContent()</replace>
+      <replace>field</replace>
+      <replace>rightField</replace>
+      <replace>KWD_OR KWD_EVEN?</replace>
+      <replace>KWD_OR KWD_EVEN</replace>
+      <replace>.mkString(&quot;( &quot;,&quot; OR &quot;,&quot;)&quot;)</replace>
+      <replace>(KWD_OR (criteriaClause | field))*</replace>
+      <replace>((SYM_COMMA | KWD_OR KWD_EVEN?) (criteriaClause | field))*</replace>
+      <replace>val conditionExpResult =</replace>
+      <replace>(KWD_OR (criteriaClause | field))</replace>
+      <replace>prefixNegVerb=((KWD_WITHOUT | negativeVerb)</replace>
+      <replace>getConditionalWhereValueAndType(ctx.value, ctx.fieldType, ctx.criteriaClause(),ctx.KWD_WITHOUT() != null || ctx.prefixNegVerb != null)</replace>
+      <replace>KWD_OR</replace>
+      <replace>getConditionalWhereValueAndType(ctx.value, ctx.fieldType, ctx.criteriaClause())</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>E:\NuoCanvas\Source_Code\nuo-backend-nucleo</dir>
+      <dir>D:\NuoCanvas\Source_Code\nuo-backend-nucleo\src\main\scala</dir>
+      <dir>D:\NuoCanvas\Source_Code\nuo-backend-nucleo\src\main</dir>
+      <dir>D:\NuoCanvas\Source_Code\nuo-backend-nucleo\src</dir>
+      <dir>D:\NuoCanvas\Source_Code\nuo-backend-nucleo</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="WARN_ABOUT_CRLF" value="false" />
+    <push-targets>
+      <push-target-info target-remote="us-west-2-backend-nucleo" target-branch="master" repo="$PROJECT_DIR$" source="master" />
+    </push-targets>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/scala/execution/NuoRequestHandler.scala" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/scala/nlp/grammar/NuoEvaEnglishListener.scala" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/scala/nlp/grammar/v0.g4" />
+        <option value="$PROJECT_DIR$/src/main/scala/dag/NuoDagDetails.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/dag/NuoActionPatternMatcher.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/dag/NuoDagProcessor.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/action/NuoExpressionAndVariable.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/action/NuoLoop.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/metadata/VariableMetadata.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/dag/NuoDag.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/dag/NuoDagExecutionManager.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/metadata/RequestMetadata.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/metadata/RunMetadata.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/nlp/grammar/EvaEnglish.g4" />
+        <option value="$PROJECT_DIR$/src/main/scala/nlp/grammar/NuoGrammarListener.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/nlp/grammar/NuoEvaEngGrammarListener.scala" />
+        <option value="$PROJECT_DIR$/src/main/js/crm.js" />
+        <option value="$PROJECT_DIR$/src/main/scala/metadata/CanvasMetadata.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/canvas/NuoModifier.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/nlp/grammar/NuoAdpLocCriteriaListener.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/metadata/MLaaSMetadata.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/client/NuoDynamoDBClient.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/metadata/StorageMetadata.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/metadata/AccountMetadata.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/client/NuoGcpIamClient.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/logging/NuoLogger.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/client/NuoGcsClient.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/client/NuoHttpClient.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/client/NuoS3Client.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/client/NuoSmtpClient.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/nlp/NuoParserCodeGenerator.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/nlp/NuoQuestionRecognizer.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/execution/NuoHttpServer.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/action/NuoAIaaS.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/action/NuoMLaaS.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/action/NuoDML.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/logging/NuoBiller.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/action/NuoStorage.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/canvas/NuoDataTypeHandler.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/client/NuoSecurityClient.scala" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/scala/Test.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/dag/NuoTenantDetails.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/client/NuoJdbcClient.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/metadata/NuoRecognitionMetadata.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/metadata/NuoRequestMetadata.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/client/NuoTextToSpeechClient.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/execution/NuoRequestHandler.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/client/NuoBqClient.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/nlp/grammar/NuoEvaEnglishListener.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/nlp/grammar/evaEnglish.g4" />
+        <option value="$PROJECT_DIR$/src/test/scala/NuoQuestionTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/nlp/NuoQuestionParser.scala" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="width" value="1920" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>CollectionsScala</id>
+          </State>
+          <State>
+            <id>ComparingCollectionsScala</id>
+          </State>
+          <State>
+            <id>GeneralScala</id>
+          </State>
+          <State>
+            <id>Scala</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>ComparingLength</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="nuo-backend-nucleo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nuo-backend-nucleo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nuo-backend-nucleo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nuo-backend-nucleo" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nuo-backend-nucleo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nuo-backend-nucleo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nuo-backend-nucleo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nuo-backend-nucleo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nuo-backend-nucleo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nuo-backend-nucleo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nuo-backend-nucleo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nuo-backend-nucleo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="nlp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nuo-backend-nucleo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nuo-backend-nucleo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="nlp" type="462c0819:PsiDirectoryNode" />
+              <item name="grammar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nuo-backend-nucleo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nuo-backend-nucleo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nuo-backend-nucleo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nuo-backend-nucleo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="Scala" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ToolWindowStructure.ShowToolbar" value="false" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.18336163" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/scala/nlp/grammar/evaEnglish.g4" />
+    <property name="AnalyzeApkAction.lastApkPath" value="$PROJECT_DIR$/out/artifacts" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="nuo-backend-nucleo" />
+    <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH" value="402" />
+    <property name="GenerateAntBuildDialog.generateSingleFile" value="true" />
+    <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveMembersDialog.RECENTS_KEY">
+      <recent name="dag.NuoDAGExecutionManager$" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Action" />
+      <recent name="Logging" />
+      <recent name="Server" />
+      <recent name="Metadata" />
+      <recent name="Client" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\NuoCanvas\Source_Code\nuo-backend-nucleo\src\main\scala\nlp\grammar" />
+      <recent name="E:\NuoCanvas\Source_Code\Idea_Projects\nuo-analyzer\src\main\resources" />
+      <recent name="E:\NuoCanvas\Source_Code\Idea_Projects\nuoanalyzer\src\main\scala" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="client" />
+      <recent name="execution" />
+      <recent name="nlp.grammar" />
+      <recent name="metadata" />
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\NuoCanvas\Source_Code\nuo-backend-nucleo\src\main" />
+      <recent name="D:\NuoCanvas\Source_Code\nuo-backend-nucleo\resources" />
+      <recent name="E:\NuoCanvas\Source_Code\Idea_Projects\nuo-backend-nucleo\src\main\scala\dag" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.NuoQuestionParser">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration name="NuoBackendServer" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="execution.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="execution.NuoBackendServer" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="nuo-backend-nucleo" />
+      <envs />
+    </configuration>
+    <configuration name="NuoParserCodeGenerator" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="nlp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="nlp.NuoParserCodeGenerator" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="nuo-backend-nucleo" />
+      <envs />
+    </configuration>
+    <configuration name="NuoQuestionParser" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="nlp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="nlp.NuoQuestionParser" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="nuo-backend-nucleo" />
+      <envs />
+    </configuration>
+    <configuration name="NuoQuestionTest" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="NuoQuestionTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="nuo-backend-nucleo" />
+      <envs />
+    </configuration>
+    <configuration name="NuoRequestHandler" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="execution.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="execution.NuoRequestHandler" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="nuo-backend-nucleo" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="Unnamed" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/nuoanalyzer.jar" />
+      <option name="WORKING_DIRECTORY" value="E:\NuoCanvas\Source_Code\Idea_Projects\nuoanalyzer" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="nuoanalyzer" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <classRegexps />
+      <testRegexps />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <classRegexps />
+      <testRegexps />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <classRegexps />
+      <testRegexps />
+      <envs />
+      <method />
+    </configuration>
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="JAR Application.Unnamed" />
+      <item index="1" class="java.lang.String" itemvalue="Application.NuoBackendServer" />
+      <item index="2" class="java.lang.String" itemvalue="Application.NuoQuestionTest" />
+      <item index="3" class="java.lang.String" itemvalue="Application.NuoQuestionParser" />
+      <item index="4" class="java.lang.String" itemvalue="Application.NuoParserCodeGenerator" />
+      <item index="5" class="java.lang.String" itemvalue="Application.NuoRequestHandler" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.NuoQuestionParser" />
+        <item index="1" class="java.lang.String" itemvalue="Application.NuoQuestionTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.NuoParserCodeGenerator" />
+        <item index="3" class="java.lang.String" itemvalue="Application.NuoBackendServer" />
+        <item index="4" class="java.lang.String" itemvalue="Application.NuoRequestHandler" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="da4f7c60-11de-4d50-a95d-a1febcf3f99b" name="Default" comment="" />
+      <created>1483543640859</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1483543640859</updated>
+    </task>
+    <task id="LOCAL-00143" summary="17MAY18T1841Z:Pulkit: ML integration test is complete.">
+      <created>1526582500274</created>
+      <option name="number" value="00143" />
+      <option name="presentableId" value="LOCAL-00143" />
+      <option name="project" value="LOCAL" />
+      <updated>1526582500276</updated>
+    </task>
+    <task id="LOCAL-00144" summary="25MAY18T1852Z:Pulkit: File explorer is complete.">
+      <created>1527274314926</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1527274314927</updated>
+    </task>
+    <task id="LOCAL-00145" summary="26MAY18T1735Z:Pulkit: File loading is in progress.">
+      <created>1527356218675</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1527356218736</updated>
+    </task>
+    <task id="LOCAL-00146" summary="27MAY18T1342Z:Pulkit: File loading backend has been unit tested. Integration test is in progress.">
+      <created>1527428575616</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1527428575617</updated>
+    </task>
+    <task id="LOCAL-00147" summary="28MAY2018T1603Z:Pulkit: File load integration test has been complete for csv and JSON formats.">
+      <created>1527523446657</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1527523446657</updated>
+    </task>
+    <task id="LOCAL-00148" summary="29MAY2018T1450Z:Pulkit: Storage Explorer is now available; the file loading has passed test with all file formats.">
+      <created>1527605550321</created>
+      <option name="number" value="00148" />
+      <option name="presentableId" value="LOCAL-00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1527605550322</updated>
+    </task>
+    <task id="LOCAL-00149" summary="30MAY2018T1900Z:Pulkit: Minor changes.">
+      <created>1527706718420</created>
+      <option name="number" value="00149" />
+      <option name="presentableId" value="LOCAL-00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1527706718421</updated>
+    </task>
+    <task id="LOCAL-00150" summary="30MAY2018T1905Z:Pulkit: Minor changes.">
+      <created>1527707094982</created>
+      <option name="number" value="00150" />
+      <option name="presentableId" value="LOCAL-00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1527707094982</updated>
+    </task>
+    <task id="LOCAL-00151" summary="31MAY2018T2052Z:Pulkit: Data generation in progress.">
+      <created>1527799777829</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1527799777829</updated>
+    </task>
+    <task id="LOCAL-00152" summary="02JUN2018T1450Z:Pulkit: Data generation is complete. Eva integration test with new metadata is complete.">
+      <created>1527950995012</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1527950995017</updated>
+    </task>
+    <task id="LOCAL-00153" summary="03JUN2018T1842Z:Pulkit: Minor fixes.">
+      <created>1528051346282</created>
+      <option name="number" value="00153" />
+      <option name="presentableId" value="LOCAL-00153" />
+      <option name="project" value="LOCAL" />
+      <updated>1528051346282</updated>
+    </task>
+    <task id="LOCAL-00154" summary="05JUN2018T1842Z:Pulkit: Error reporting coding done; Testing pending.">
+      <created>1528227057240</created>
+      <option name="number" value="00154" />
+      <option name="presentableId" value="LOCAL-00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1528227057241</updated>
+    </task>
+    <task id="LOCAL-00155" summary="07JUN2018T2118Z:Pulkit: Bug fixes during demo preparation.">
+      <created>1528406387873</created>
+      <option name="number" value="00155" />
+      <option name="presentableId" value="LOCAL-00155" />
+      <option name="project" value="LOCAL" />
+      <updated>1528406387874</updated>
+    </task>
+    <task id="LOCAL-00156" summary="08JUN2018T0835Z:Pulkit: Minor fixes during demo preparation.">
+      <created>1528446948784</created>
+      <option name="number" value="00156" />
+      <option name="presentableId" value="LOCAL-00156" />
+      <option name="project" value="LOCAL" />
+      <updated>1528446948784</updated>
+    </task>
+    <task id="LOCAL-00157" summary="08JUN2018T1542Z:Pulkit: Minor fixes during demo preparation.">
+      <created>1528472759144</created>
+      <option name="number" value="00157" />
+      <option name="presentableId" value="LOCAL-00157" />
+      <option name="project" value="LOCAL" />
+      <updated>1528472759145</updated>
+    </task>
+    <task id="LOCAL-00158" summary="08JUN2018T1944Z:Pulkit: Demo tutorial complete.">
+      <created>1528486998497</created>
+      <option name="number" value="00158" />
+      <option name="presentableId" value="LOCAL-00158" />
+      <option name="project" value="LOCAL" />
+      <updated>1528486998497</updated>
+    </task>
+    <task id="LOCAL-00159" summary="11JUN2018T2004Z:Pulkit: Minor changes in error reporing.">
+      <created>1528747632285</created>
+      <option name="number" value="00159" />
+      <option name="presentableId" value="LOCAL-00159" />
+      <option name="project" value="LOCAL" />
+      <updated>1528747632286</updated>
+    </task>
+    <task id="LOCAL-00160" summary="15JUN2018T1649Z:Pulkit: Before changing pricing model.">
+      <created>1529081421349</created>
+      <option name="number" value="00160" />
+      <option name="presentableId" value="LOCAL-00160" />
+      <option name="project" value="LOCAL" />
+      <updated>1529081421349</updated>
+    </task>
+    <task id="LOCAL-00161" summary="15JUN2018T1957Z:Pulkit: Pricing Model updated; Tenant bootstrap is in progress.">
+      <created>1529092611482</created>
+      <option name="number" value="00161" />
+      <option name="presentableId" value="LOCAL-00161" />
+      <option name="project" value="LOCAL" />
+      <updated>1529092611482</updated>
+    </task>
+    <task id="LOCAL-00162" summary="16JUN2018T1717Z:Pulkit: Timeframe clause has been moved from Criteria level to Where clause level. The code impact has been tested and verified.">
+      <created>1529170162689</created>
+      <option name="number" value="00162" />
+      <option name="presentableId" value="LOCAL-00162" />
+      <option name="project" value="LOCAL" />
+      <updated>1529170162690</updated>
+    </task>
+    <task id="LOCAL-00163" summary="17JUN2018T1717Z:Pulkit: Date fields are updated, now we support majority of the logical date/duration combinations in filter.">
+      <created>1529269929584</created>
+      <option name="number" value="00163" />
+      <option name="presentableId" value="LOCAL-00163" />
+      <option name="project" value="LOCAL" />
+      <updated>1529269929588</updated>
+    </task>
+    <task id="LOCAL-00164" summary="17JUN2018T2114Z:Pulkit: Date changes have passed all test cases.">
+      <created>1529270106168</created>
+      <option name="number" value="00164" />
+      <option name="presentableId" value="LOCAL-00164" />
+      <option name="project" value="LOCAL" />
+      <updated>1529270106168</updated>
+    </task>
+    <task id="LOCAL-00165" summary="19JUN2018T1402Z:Pulkit: New user registration has been verified.">
+      <created>1529417174596</created>
+      <option name="number" value="00165" />
+      <option name="presentableId" value="LOCAL-00165" />
+      <option name="project" value="LOCAL" />
+      <updated>1529417174596</updated>
+    </task>
+    <task id="LOCAL-00166" summary="23JUN2018T1654Z:Pulkit: Progress Monitor is complete.">
+      <created>1529772946365</created>
+      <option name="number" value="00166" />
+      <option name="presentableId" value="LOCAL-00166" />
+      <option name="project" value="LOCAL" />
+      <updated>1529772946366</updated>
+    </task>
+    <task id="LOCAL-00167" summary="24JUN2018T2031Z:Pulkit: Image Analysis is in progress.">
+      <created>1529872335308</created>
+      <option name="number" value="00167" />
+      <option name="presentableId" value="LOCAL-00167" />
+      <option name="project" value="LOCAL" />
+      <updated>1529872335313</updated>
+    </task>
+    <task id="LOCAL-00168" summary="26JUN2018T1811Z:Pulkit: Image Analysis is complete.">
+      <created>1530036772094</created>
+      <option name="number" value="00168" />
+      <option name="presentableId" value="LOCAL-00168" />
+      <option name="project" value="LOCAL" />
+      <updated>1530036772094</updated>
+    </task>
+    <task id="LOCAL-00169" summary="28JUN2018T1925Z:Pulkit: Profile Image option is complete.">
+      <created>1530213898862</created>
+      <option name="number" value="00169" />
+      <option name="presentableId" value="LOCAL-00169" />
+      <option name="project" value="LOCAL" />
+      <updated>1530213898863</updated>
+    </task>
+    <task id="LOCAL-00170" summary="05JUL2018T1925Z:Pulkit: Ranking functions in progress.">
+      <created>1530823537298</created>
+      <option name="number" value="00170" />
+      <option name="presentableId" value="LOCAL-00170" />
+      <option name="project" value="LOCAL" />
+      <updated>1530823537299</updated>
+    </task>
+    <task id="LOCAL-00171" summary="15JUL2018T2358Z:Pulkit: Ranking functions in progress;Nth value, lead and lag functions have been added. Unit testing pending.">
+      <created>1531691964372</created>
+      <option name="number" value="00171" />
+      <option name="presentableId" value="LOCAL-00171" />
+      <option name="project" value="LOCAL" />
+      <updated>1531691964373</updated>
+    </task>
+    <task id="LOCAL-00172" summary="22JUL2018T1910Z:Pulkit: Functions in progress. Field rule has been updated; All the parent rules need to adapt the change.">
+      <created>1532286918518</created>
+      <option name="number" value="00172" />
+      <option name="presentableId" value="LOCAL-00172" />
+      <option name="project" value="LOCAL" />
+      <updated>1532286918519</updated>
+    </task>
+    <task id="LOCAL-00173" summary="23JUL2018T1936Z:Pulkit: Functions in progress. Field alias are in progress.">
+      <created>1532374636920</created>
+      <option name="number" value="00173" />
+      <option name="presentableId" value="LOCAL-00173" />
+      <option name="project" value="LOCAL" />
+      <updated>1532374636925</updated>
+    </task>
+    <task id="LOCAL-00174" summary="26JUL2018T2003Z:Pulkit: String Functions in progress.">
+      <created>1532635480972</created>
+      <option name="number" value="00174" />
+      <option name="presentableId" value="LOCAL-00174" />
+      <option name="project" value="LOCAL" />
+      <updated>1532635480974</updated>
+    </task>
+    <task id="LOCAL-00175" summary="28JUL2018T1221Z:Pulkit: String Functions are complete, testing pending">
+      <created>1532780536327</created>
+      <option name="number" value="00175" />
+      <option name="presentableId" value="LOCAL-00175" />
+      <option name="project" value="LOCAL" />
+      <updated>1532780536328</updated>
+    </task>
+    <task id="LOCAL-00176" summary="29JUL2018T2100Z:Pulkit: Operators in progress.">
+      <created>1532898138007</created>
+      <option name="number" value="00176" />
+      <option name="presentableId" value="LOCAL-00176" />
+      <option name="project" value="LOCAL" />
+      <updated>1532898138008</updated>
+    </task>
+    <task id="LOCAL-00177" summary="01AUG2018T1613Z:Pulkit: Operators in progress.">
+      <created>1533140020616</created>
+      <option name="number" value="00177" />
+      <option name="presentableId" value="LOCAL-00177" />
+      <option name="project" value="LOCAL" />
+      <updated>1533140020616</updated>
+    </task>
+    <task id="LOCAL-00178" summary="02AUG2018T2049Z:Pulkit: Negative String functions in progress.">
+      <created>1533243250247</created>
+      <option name="number" value="00178" />
+      <option name="presentableId" value="LOCAL-00178" />
+      <option name="project" value="LOCAL" />
+      <updated>1533243250247</updated>
+    </task>
+    <task id="LOCAL-00179" summary="03AUG2018T2049Z:Pulkit: Negative String functions complete, nested function with different datatypes grammar test complete, rank function alias issue resolved, additional white space issue in quoted text issue resolved. SELECT * equivalent needs to be added.">
+      <created>1533329504668</created>
+      <option name="number" value="00179" />
+      <option name="presentableId" value="LOCAL-00179" />
+      <option name="project" value="LOCAL" />
+      <updated>1533329504668</updated>
+    </task>
+    <task id="LOCAL-00180" summary="14AUG2018T2118Z:Pulkit: Learn and predict progress issues fixed.">
+      <created>1534281761281</created>
+      <option name="number" value="00180" />
+      <option name="presentableId" value="LOCAL-00180" />
+      <option name="project" value="LOCAL" />
+      <updated>1534281761281</updated>
+    </task>
+    <task id="LOCAL-00181" summary="23AUG2018T0055Z:Pulkit: New user experience in progress; removed the dependency on field recognition; Test case update pending.">
+      <created>1534986412488</created>
+      <option name="number" value="00181" />
+      <option name="presentableId" value="LOCAL-00181" />
+      <option name="project" value="LOCAL" />
+      <updated>1534986412503</updated>
+    </task>
+    <task id="LOCAL-00182" summary="24AUG2018T1008Z:Pulkit: Api methods signature and query execution mechanism have been updated.">
+      <created>1535105495898</created>
+      <option name="number" value="00182" />
+      <option name="presentableId" value="LOCAL-00182" />
+      <option name="project" value="LOCAL" />
+      <updated>1535105495899</updated>
+    </task>
+    <task id="LOCAL-00183" summary="29AUG2018T1911Z:Pulkit: Metadata is in progress. Jdbc connection established.">
+      <created>1535569829710</created>
+      <option name="number" value="00183" />
+      <option name="presentableId" value="LOCAL-00183" />
+      <option name="project" value="LOCAL" />
+      <updated>1535569829710</updated>
+    </task>
+    <task id="LOCAL-00184" summary="31AUG2018T2334Z:Pulkit: Register user, session management and history feed read/write update with new metadata; Unit testing pending.">
+      <created>1535755051738</created>
+      <option name="number" value="00184" />
+      <option name="presentableId" value="LOCAL-00184" />
+      <option name="project" value="LOCAL" />
+      <updated>1535755051741</updated>
+    </task>
+    <task id="LOCAL-00185" summary="01SEP2018T2040Z:Pulkit: Relationship read/write updated with new metadata; Unit testing pending.">
+      <created>1535834547671</created>
+      <option name="number" value="00185" />
+      <option name="presentableId" value="LOCAL-00185" />
+      <option name="project" value="LOCAL" />
+      <updated>1535834547671</updated>
+    </task>
+    <task id="LOCAL-00186" summary="minor changes">
+      <created>1535834883625</created>
+      <option name="number" value="00186" />
+      <option name="presentableId" value="LOCAL-00186" />
+      <option name="project" value="LOCAL" />
+      <updated>1535834883625</updated>
+    </task>
+    <task id="LOCAL-00187" summary="03SEP2018T2144Z:Pulkit Search, Save, Load, New Analysis, Load Tables and Load Files have passed offline integration test. Chart detection and rendering are next.">
+      <created>1536011167057</created>
+      <option name="number" value="00187" />
+      <option name="presentableId" value="LOCAL-00187" />
+      <option name="project" value="LOCAL" />
+      <updated>1536011167059</updated>
+    </task>
+    <task id="LOCAL-00188" summary="20SEP2018T2144Z:Pulkit: Date issue has been resolved.">
+      <created>1537456766983</created>
+      <option name="number" value="00188" />
+      <option name="presentableId" value="LOCAL-00188" />
+      <option name="project" value="LOCAL" />
+      <updated>1537456766983</updated>
+    </task>
+    <task id="LOCAL-00189" summary="22NOV2018T2038Z:Pulkit: Query generation for comparision has been added. Grammar needs to be updated.">
+      <created>1542919222938</created>
+      <option name="number" value="00189" />
+      <option name="presentableId" value="LOCAL-00189" />
+      <option name="project" value="LOCAL" />
+      <updated>1542919222938</updated>
+    </task>
+    <task id="LOCAL-00190" summary="24NOV2018T2038Z:Pulkit: Grammar has been updated for Comparision. Unit testing in progress.">
+      <created>1543017043489</created>
+      <option name="number" value="00190" />
+      <option name="presentableId" value="LOCAL-00190" />
+      <option name="project" value="LOCAL" />
+      <updated>1543017043492</updated>
+    </task>
+    <task id="LOCAL-00191" summary="17DEC2018T2326Z:Pulkit: Ranking query updated to support aggregation; Unit testing is in progress.">
+      <created>1545003073340</created>
+      <option name="number" value="00191" />
+      <option name="presentableId" value="LOCAL-00191" />
+      <option name="project" value="LOCAL" />
+      <updated>1545003073341</updated>
+    </task>
+    <option name="localTasksCounter" value="192" />
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32864866" sideWeight="0.49307036" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Tool Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32864866" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32464713" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4408252" sideWeight="0.51226014" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.4962162" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4408252" sideWeight="0.48773986" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32790446" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.49573562" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1881663" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="787" y="46" width="346" height="947" />
+      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3984799" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4310532" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="ANTLR Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32864866" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2531983" sideWeight="0.495671" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42019543" sideWeight="0.4914712" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25799572" sideWeight="0.504329" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" x="92" y="92" width="1736" height="856" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.50378376" order="9" side_tool="true" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.tokens" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.js" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="28JUN2018T1925Z:Pulkit: Profile Image option is complete." />
+    <MESSAGE value="05JUL2018T1925Z:Pulkit: Ranking functions in progress." />
+    <MESSAGE value="15JUL2018T2358Z:Pulkit: Ranking functions in progress;Nth value, lead and lag functions have been added. Unit testing pending." />
+    <MESSAGE value="22JUL2018T1910Z:Pulkit: Functions in progress. Field rule has been updated; All the parent rules need to adapt the change." />
+    <MESSAGE value="23JUL2018T1936Z:Pulkit: Functions in progress. Field alias are in progress." />
+    <MESSAGE value="26JUL2018T2003Z:Pulkit: String Functions in progress." />
+    <MESSAGE value="28JUL2018T1221Z:Pulkit: String Functions are complete, testing pending" />
+    <MESSAGE value="29JUL2018T2100Z:Pulkit: Operators in progress." />
+    <MESSAGE value="01AUG2018T1613Z:Pulkit: Operators in progress." />
+    <MESSAGE value="02AUG2018T2049Z:Pulkit: Negative String functions in progress." />
+    <MESSAGE value="03AUG2018T2049Z:Pulkit: Negative String functions complete, nested function with different datatypes grammar test complete, rank function alias issue resolved, additional white space issue in quoted text issue resolved. SELECT * equivalent needs to be added." />
+    <MESSAGE value="10AUG2018T2049Z:Pulkit: Learn use case has passed integration test. Prediction is next." />
+    <MESSAGE value="13AUG2018T1727Z:Pulkit: Learn and predict are in production now." />
+    <MESSAGE value="14AUG2018T2118Z:Pulkit: Learn and predict progress issues fixed." />
+    <MESSAGE value="23AUG2018T0055Z:Pulkit: New user experience in progress; removed the dependency on field recognition; Test case update pending." />
+    <MESSAGE value="24AUG2018T1008Z:Pulkit: Api methods signature and query execution mechanism have been updated." />
+    <MESSAGE value="29AUG2018T1911Z:Pulkit: Metadata is in progress. Jdbc connection established." />
+    <MESSAGE value="31AUG2018T2334Z:Pulkit: Register user, session management and history feed read/write update with new metadata; Unit testing pending." />
+    <MESSAGE value="01SEP2018T2040Z:Pulkit: Relationship read/write updated with new metadata; Unit testing pending." />
+    <MESSAGE value="minor changes" />
+    <MESSAGE value="03SEP2018T2144Z:Pulkit Search, Save, Load, New Analysis, Load Tables and Load Files have passed offline integration test. Chart detection and rendering are next." />
+    <MESSAGE value="20SEP2018T2144Z:Pulkit: Date issue has been resolved." />
+    <MESSAGE value="22NOV2018T2038Z:Pulkit: Query generation for comparision has been added. Grammar needs to be updated." />
+    <MESSAGE value="24NOV2018T2038Z:Pulkit: Grammar has been updated for Comparision. Unit testing in progress." />
+    <MESSAGE value="17DEC2018T2326Z:Pulkit: Ranking query updated to support aggregation; Unit testing is in progress." />
+    <option name="LAST_COMMIT_MESSAGE" value="17DEC2018T2326Z:Pulkit: Ranking query updated to support aggregation; Unit testing is in progress." />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/client/NuoDynamoDBClient.scala</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="1953" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/client/NuoS3Client.scala</url>
+          <line>491</line>
+          <properties />
+          <option name="timeStamp" value="1963" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/client/NuoS3Client.scala</url>
+          <line>324</line>
+          <properties />
+          <option name="timeStamp" value="2008" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/client/NuoS3Client.scala</url>
+          <line>298</line>
+          <properties />
+          <option name="timeStamp" value="2014" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/client/NuoS3Client.scala</url>
+          <line>302</line>
+          <properties />
+          <option name="timeStamp" value="2015" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/nlp/NuoQuestionRecognizer.scala</url>
+          <line>801</line>
+          <properties />
+          <option name="timeStamp" value="2109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/nlp/NuoQuestionRecognizer.scala</url>
+          <line>831</line>
+          <properties />
+          <option name="timeStamp" value="2110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/action/NuoStorage.scala</url>
+          <line>304</line>
+          <properties />
+          <option name="timeStamp" value="2204" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/client/NuoBqClient.scala</url>
+          <line>723</line>
+          <properties />
+          <option name="timeStamp" value="2241" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/nlp/NuoQuestionRecognizer.scala</url>
+          <line>1797</line>
+          <properties />
+          <option name="timeStamp" value="2286" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/nlp/NuoQuestionRecognizer.scala</url>
+          <line>1825</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="2287" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/nlp/NuoQuestionRecognizer.scala</url>
+          <line>1798</line>
+          <properties />
+          <option name="timeStamp" value="2288" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/nlp/NuoQuestionRecognizer.scala</url>
+          <line>1855</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="2310" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/nlp/NuoQuestionRecognizer.scala</url>
+          <line>1721</line>
+          <properties />
+          <option name="timeStamp" value="2313" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/client/NuoBqClient.scala</url>
+          <line>1391</line>
+          <properties />
+          <option name="timeStamp" value="2368" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/action/NuoAIaaS.scala</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="2379" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/action/NuoAIaaS.scala</url>
+          <line>125</line>
+          <properties />
+          <option name="timeStamp" value="2380" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/action/NuoAIaaS.scala</url>
+          <line>511</line>
+          <properties />
+          <option name="timeStamp" value="2381" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/action/NuoAIaaS.scala</url>
+          <line>77</line>
+          <properties />
+          <option name="timeStamp" value="2382" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/client/NuoGcsClient.scala</url>
+          <line>152</line>
+          <properties />
+          <option name="timeStamp" value="2389" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/action/NuoMLaaS.scala</url>
+          <line>144</line>
+          <properties />
+          <option name="timeStamp" value="2483" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/action/NuoMLaaS.scala</url>
+          <line>82</line>
+          <properties />
+          <option name="timeStamp" value="2484" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/action/NuoMLaaS.scala</url>
+          <line>253</line>
+          <properties />
+          <option name="timeStamp" value="2527" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/action/NuoStorage.scala</url>
+          <line>274</line>
+          <properties />
+          <option name="timeStamp" value="2529" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/action/NuoMLaaS.scala</url>
+          <line>179</line>
+          <properties />
+          <option name="timeStamp" value="2530" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/logging/NuoBiller.scala</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="2531" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/action/NuoMLaaS.scala</url>
+          <line>220</line>
+          <properties />
+          <option name="timeStamp" value="2534" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/action/NuoMLaaS.scala</url>
+          <line>210</line>
+          <properties />
+          <option name="timeStamp" value="2535" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/action/NuoStorage.scala</url>
+          <line>256</line>
+          <properties />
+          <option name="timeStamp" value="2538" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/client/NuoHttpClient.scala</url>
+          <line>144</line>
+          <properties />
+          <option name="timeStamp" value="2539" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/action/NuoMLaaS.scala</url>
+          <line>602</line>
+          <properties />
+          <option name="timeStamp" value="2556" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/nlp/NuoQuestionRecognizer.scala</url>
+          <line>230</line>
+          <properties />
+          <option name="timeStamp" value="2558" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/nlp/NuoQuestionRecognizer.scala</url>
+          <line>645</line>
+          <properties />
+          <option name="timeStamp" value="2559" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/nlp/NuoQuestionRecognizer.scala</url>
+          <line>858</line>
+          <properties />
+          <option name="timeStamp" value="2560" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/nlp/NuoQuestionRecognizer.scala</url>
+          <line>926</line>
+          <properties />
+          <option name="timeStamp" value="2561" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/client/NuoSecurityClient.scala</url>
+          <line>380</line>
+          <properties />
+          <option name="timeStamp" value="2653" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/client/NuoSecurityClient.scala</url>
+          <line>386</line>
+          <properties />
+          <option name="timeStamp" value="2654" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/action/NuoDML.scala</url>
+          <line>422</line>
+          <properties />
+          <option name="timeStamp" value="2709" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/execution/NuoRequestHandler.scala</url>
+          <line>1722</line>
+          <properties />
+          <option name="timeStamp" value="2721" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/client/NuoBqClient.scala</url>
+          <line>245</line>
+          <properties />
+          <option name="timeStamp" value="2735" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/action/NuoDML.scala</url>
+          <line>419</line>
+          <properties />
+          <option name="timeStamp" value="2736" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/action/NuoStorage.scala</url>
+          <line>436</line>
+          <properties />
+          <option name="timeStamp" value="2737" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/execution/NuoRequestHandler.scala</url>
+          <line>1513</line>
+          <properties />
+          <option name="timeStamp" value="2937" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/client/NuoBqClient.scala</url>
+          <line>916</line>
+          <properties />
+          <option name="timeStamp" value="2968" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/nlp/grammar/NuoEvaEnglishListener.scala</url>
+          <line>1458</line>
+          <properties />
+          <option name="timeStamp" value="2975" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/nlp/grammar/NuoEvaEnglishListener.scala</url>
+          <line>1462</line>
+          <properties />
+          <option name="timeStamp" value="2976" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/nlp/grammar/NuoEvaEnglishListener.scala</url>
+          <line>1756</line>
+          <properties />
+          <option name="timeStamp" value="2978" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/nlp/grammar/NuoEvaEnglishListener.scala</url>
+          <line>1971</line>
+          <properties />
+          <option name="timeStamp" value="2979" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="2980" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="ctx.KWD_WITHOUT()" language="Scala" />
+        <watch expression="ctx.getText()" language="Scala" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>ele.getId.contains(&quot;flow&quot;)</expression-string>
+        <language-id>Scala</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>currNuoQuestionRecognitionData.QuestionText.equalsIgnoreCase(&quot;Find Last year s salary and column_that_5 that do not have  front to back length that is beyond 30 meter OR (total weight is more than 1200 kilograms and has front end drive)&quot;)</expression-string>
+        <language-id>Scala</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="watch">
+      <expression>
+        <expression-string>ctx.getText()</expression-string>
+        <language-id>Scala</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>ctx.KWD_WITHOUT()</expression-string>
+        <language-id>Scala</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>fields</expression-string>
+        <language-id>Scala</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>datatypes</expression-string>
+        <language-id>Scala</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>NuoEvaEnglishListener       .nuoTenantDetails.tenantId</expression-string>
+        <language-id>Scala</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>NuoEvaEnglishListener       .nuoTenantDetails       .bigqueryClient       .datasets()       .list(NuoEvaEnglishListener.nuoTenantDetails.bqProjectId)       .execute()       .getDatasets.asScala.map(_.getId)</expression-string>
+        <language-id>Scala</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>NuoEvaEnglishListener       .nuoTenantDetails       .bigqueryClient       .datasets()       .list(NuoEvaEnglishListener.nuoTenantDetails.bqProjectId)       .execute()       .getDatasets.asScala</expression-string>
+        <language-id>Scala</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>ctx.field()</expression-string>
+        <language-id>Scala</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>ctx.rankField()</expression-string>
+        <language-id>Scala</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>ctx.selectClause().fieldList()</expression-string>
+        <language-id>Scala</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.9/commons-codec-1.9-sources.jar!/org/apache/commons/codec/digest/DigestUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="284" column="35" lean-forward="true" selection-start-line="284" selection-start-column="35" selection-end-line="284" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/metadata/AccountMetadata.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="182" column="1" lean-forward="false" selection-start-line="182" selection-start-column="1" selection-end-line="182" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/client/NuoGcpIamClient.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="676">
+          <caret line="88" column="0" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/canvas/NuoModifier.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="282" column="52" lean-forward="false" selection-start-line="282" selection-start-column="52" selection-end-line="282" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ApiTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="568">
+          <caret line="77" column="23" lean-forward="false" selection-start-line="77" selection-start-column="23" selection-end-line="77" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/client/NuoHttpClient.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="144" column="4" lean-forward="false" selection-start-line="144" selection-start-column="4" selection-end-line="144" selection-end-column="4" />
+          <folding>
+            <element signature="e#16#42#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/nlp/NuoParserCodeGenerator.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="653">
+          <caret line="40" column="4" lean-forward="false" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/client/NuoSmtpClient.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1003">
+          <caret line="63" column="6" lean-forward="false" selection-start-line="63" selection-start-column="6" selection-end-line="63" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.11.10/scala-library-2.11.10-sources.jar!/scala/Boolean.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/action/NuoAIaaS.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4981">
+          <caret line="305" column="6" lean-forward="false" selection-start-line="305" selection-start-column="6" selection-end-line="305" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/util/Date.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="704" column="16" lean-forward="false" selection-start-line="704" selection-start-column="16" selection-end-line="704" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/util/Calendar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="523" column="28" lean-forward="false" selection-start-line="523" selection-start-column="28" selection-end-line="523" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/action/NuoMLaaS.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22593">
+          <caret line="1348" column="24" lean-forward="false" selection-start-line="1348" selection-start-column="24" selection-end-line="1348" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/action/NuoDML.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6834">
+          <caret line="411" column="39" lean-forward="false" selection-start-line="411" selection-start-column="39" selection-end-line="411" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/logging/NuoBiller.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/nlp/grammar/NuoAdpLocCriteriaListener.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="16" column="6" lean-forward="false" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/metadata/StorageMetadata.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="38" column="13" lean-forward="false" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/apis/google-api-services-storage/v1-rev110-1.22.0/google-api-services-storage-v1-rev110-1.22.0-sources.jar!/com/google/api/services/storage/Storage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="43" column="13" lean-forward="false" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/apis/google-api-services-texttospeech/v1beta1-rev1-1.23.0/google-api-services-texttospeech-v1beta1-rev1-1.23.0-sources.jar!/com/google/api/services/texttospeech/v1beta1/model/VoiceSelectionParams.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="136" column="30" lean-forward="false" selection-start-line="136" selection-start-column="30" selection-end-line="136" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/javax/xml/bind/DatatypeConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="354" column="24" lean-forward="false" selection-start-line="354" selection-start-column="24" selection-end-line="354" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/apis/google-api-services-texttospeech/v1beta1-rev1-1.23.0/google-api-services-texttospeech-v1beta1-rev1-1.23.0-sources.jar!/com/google/api/services/texttospeech/v1beta1/Texttospeech.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8449">
+          <caret line="497" column="0" lean-forward="false" selection-start-line="497" selection-start-column="0" selection-end-line="497" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/amazonaws/aws-java-sdk-polly/1.11.447/aws-java-sdk-polly-1.11.447-sources.jar!/com/amazonaws/services/polly/model/VoiceId.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="58" column="4" lean-forward="false" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/amazonaws/aws-java-sdk-polly/1.11.447/aws-java-sdk-polly-1.11.447-sources.jar!/com/amazonaws/services/polly/model/SynthesizeSpeechRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="491" column="16" lean-forward="false" selection-start-line="491" selection-start-column="16" selection-end-line="491" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/client/NuoS3Client.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2465">
+          <caret line="145" column="29" lean-forward="false" selection-start-line="145" selection-start-column="29" selection-end-line="145" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Test.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3094">
+          <caret line="200" column="41" lean-forward="false" selection-start-line="200" selection-start-column="41" selection-end-line="200" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/action/NuoStorage.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3859">
+          <caret line="241" column="60" lean-forward="false" selection-start-line="241" selection-start-column="60" selection-end-line="241" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/logging/NuoLogger.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1938">
+          <caret line="120" column="52" lean-forward="false" selection-start-line="120" selection-start-column="26" selection-end-line="120" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/client/NuoSecurityClient.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7395">
+          <caret line="449" column="6" lean-forward="false" selection-start-line="449" selection-start-column="6" selection-end-line="449" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/data/test_cases/FieldsAndCriteriaSection.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/execution/NuoHttpServer.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="37" column="6" lean-forward="false" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/nlp/NuoQuestionRecognizer.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="2145" column="42" lean-forward="false" selection-start-line="2145" selection-start-column="42" selection-end-line="2145" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/amazonaws/aws-java-sdk-polly/1.11.118/aws-java-sdk-polly-1.11.118-sources.jar!/com/amazonaws/services/polly/model/LanguageCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="20" column="12" lean-forward="false" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/amazonaws/aws-java-sdk-polly/1.11.118/aws-java-sdk-polly-1.11.118-sources.jar!/com/amazonaws/services/polly/model/DescribeVoicesRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="655">
+          <caret line="107" column="42" lean-forward="false" selection-start-line="107" selection-start-column="42" selection-end-line="107" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/amazonaws/aws-java-sdk-polly/1.11.118/aws-java-sdk-polly-1.11.118-sources.jar!/com/amazonaws/services/polly/presign/AmazonPollyPresigners.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="46" column="11" lean-forward="false" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/amazonaws/aws-java-sdk-polly/1.11.118/aws-java-sdk-polly-1.11.118-sources.jar!/com/amazonaws/services/polly/AmazonPollyClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="709">
+          <caret line="735" column="67" lean-forward="false" selection-start-line="735" selection-start-column="67" selection-end-line="735" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/client/NuoTextToSpeechClient.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="55" column="52" lean-forward="false" selection-start-line="55" selection-start-column="52" selection-end-line="55" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/client/NuoJdbcClient.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="226" column="6" lean-forward="false" selection-start-line="226" selection-start-column="6" selection-end-line="226" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/canvas/NuoDataTypeHandler.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="53" column="6" lean-forward="false" selection-start-line="53" selection-start-column="6" selection-end-line="53" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/antlr/antlr4-runtime/4.7/antlr4-runtime-4.7-sources.jar!/org/antlr/v4/runtime/tree/ParseTreeWalker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/nlp/parser/evaEnglishParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3144">
+          <caret line="7322" column="0" lean-forward="false" selection-start-line="7322" selection-start-column="0" selection-end-line="7322" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/client/NuoGcsClient.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="107" column="126" lean-forward="true" selection-start-line="107" selection-start-column="6" selection-end-line="107" selection-end-column="126" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/metadata/NuoRequestMetadata.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="325" column="15" lean-forward="true" selection-start-line="325" selection-start-column="15" selection-end-line="325" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/client/NuoBqClient.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="1058" column="21" lean-forward="false" selection-start-line="1058" selection-start-column="11" selection-end-line="1058" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/dag/NuoTenantDetails.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="244" column="6" lean-forward="false" selection-start-line="244" selection-start-column="6" selection-end-line="244" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/metadata/NuoRecognitionMetadata.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1632">
+          <caret line="96" column="56" lean-forward="false" selection-start-line="96" selection-start-column="56" selection-end-line="96" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/execution/NuoRequestHandler.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="187" column="54" lean-forward="false" selection-start-line="187" selection-start-column="22" selection-end-line="187" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/nlp/grammar/evaEnglish.g4">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="116" column="61" lean-forward="false" selection-start-line="116" selection-start-column="61" selection-end-line="116" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/nlp/grammar/NuoEvaEnglishListener.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="48" column="17" lean-forward="false" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/NuoQuestionTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="45" column="68" lean-forward="false" selection-start-line="45" selection-start-column="68" selection-end-line="45" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/nlp/NuoQuestionParser.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="75" column="27" lean-forward="false" selection-start-line="75" selection-start-column="27" selection-end-line="75" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>nuo-backend-nucleo:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.18336163" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.18336163" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.11.10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.18336163" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.18336163" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>nuo-backend-nucleo</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.18336163" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.google.http-client:google-http-client-appengine:1.21.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.18336163" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

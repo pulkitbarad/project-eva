@@ -1,0 +1,312 @@
+{
+  "Id": "14235234200",
+  "NuoDatasets": [
+    {
+      "DatasetName": "TestDataset",
+      "NuoEntities": [
+        {
+          "DatasetName": "TestDataset",
+          "EntityName": "SampleTable",
+          "Description": "UI test after combining all users in single project",
+          "CreationTime": "1505198712009",
+          "LastModifiedTime": "1505198712009",
+          "SizeBytes": "0",
+          "SizeRows": "0",
+          "Fields": [
+            {
+              "DatasetName": "TestDataset",
+              "EntityName": "SampleTable",
+              "FieldName": "Col1",
+              "DataType": "DATE"
+            },
+            {
+              "DatasetName": "TestDataset",
+              "EntityName": "SampleTable",
+              "FieldName": "Col2",
+              "DataType": "FLOAT"
+            },
+            {
+              "DatasetName": "TestDataset",
+              "EntityName": "SampleTable",
+              "FieldName": "NewColumn",
+              "DataType": "TIMESTAMP"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "DatasetName": "__default",
+      "NuoEntities": [
+        {
+          "DatasetName": "__default",
+          "EntityName": "Banking",
+          "Description": null,
+          "CreationTime": "1511105903662",
+          "LastModifiedTime": "1511105903662",
+          "SizeBytes": "6972135",
+          "SizeRows": "41188",
+          "Fields": [
+            {
+              "DatasetName": "__default",
+              "EntityName": "Banking",
+              "FieldName": "age",
+              "DataType": "INTEGER"
+            },
+            {
+              "DatasetName": "__default",
+              "EntityName": "Banking",
+              "FieldName": "job",
+              "DataType": "STRING"
+            },
+            {
+              "DatasetName": "__default",
+              "EntityName": "Banking",
+              "FieldName": "marital",
+              "DataType": "STRING"
+            },
+            {
+              "DatasetName": "__default",
+              "EntityName": "Banking",
+              "FieldName": "education",
+              "DataType": "STRING"
+            },
+            {
+              "DatasetName": "__default",
+              "EntityName": "Banking",
+              "FieldName": "default",
+              "DataType": "STRING"
+            },
+            {
+              "DatasetName": "__default",
+              "EntityName": "Banking",
+              "FieldName": "housing",
+              "DataType": "STRING"
+            },
+            {
+              "DatasetName": "__default",
+              "EntityName": "Banking",
+              "FieldName": "loan",
+              "DataType": "STRING"
+            },
+            {
+              "DatasetName": "__default",
+              "EntityName": "Banking",
+              "FieldName": "contact",
+              "DataType": "STRING"
+            },
+            {
+              "DatasetName": "__default",
+              "EntityName": "Banking",
+              "FieldName": "month",
+              "DataType": "STRING"
+            },
+            {
+              "DatasetName": "__default",
+              "EntityName": "Banking",
+              "FieldName": "day_of_week",
+              "DataType": "STRING"
+            },
+            {
+              "DatasetName": "__default",
+              "EntityName": "Banking",
+              "FieldName": "duration",
+              "DataType": "INTEGER"
+            },
+            {
+              "DatasetName": "__default",
+              "EntityName": "Banking",
+              "FieldName": "campaign",
+              "DataType": "INTEGER"
+            },
+            {
+              "DatasetName": "__default",
+              "EntityName": "Banking",
+              "FieldName": "pdays",
+              "DataType": "INTEGER"
+            },
+            {
+              "DatasetName": "__default",
+              "EntityName": "Banking",
+              "FieldName": "previous",
+              "DataType": "INTEGER"
+            },
+            {
+              "DatasetName": "__default",
+              "EntityName": "Banking",
+              "FieldName": "poutcome",
+              "DataType": "STRING"
+            },
+            {
+              "DatasetName": "__default",
+              "EntityName": "Banking",
+              "FieldName": "emp_var_rate",
+              "DataType": "FLOAT"
+            },
+            {
+              "DatasetName": "__default",
+              "EntityName": "Banking",
+              "FieldName": "cons_price_idx",
+              "DataType": "FLOAT"
+            },
+            {
+              "DatasetName": "__default",
+              "EntityName": "Banking",
+              "FieldName": "cons_conf_idx",
+              "DataType": "FLOAT"
+            },
+            {
+              "DatasetName": "__default",
+              "EntityName": "Banking",
+              "FieldName": "euribor3m",
+              "DataType": "FLOAT"
+            },
+            {
+              "DatasetName": "__default",
+              "EntityName": "Banking",
+              "FieldName": "nr_employed",
+              "DataType": "FLOAT"
+            },
+            {
+              "DatasetName": "__default",
+              "EntityName": "Banking",
+              "FieldName": "y",
+              "DataType": "INTEGER"
+            }
+          ]
+        },
+        {
+          "DatasetName": "__default",
+          "EntityName": "Banking_Batch",
+          "Description": null,
+          "CreationTime": "1511105923786",
+          "LastModifiedTime": "1511105923786",
+          "SizeBytes": "664557",
+          "SizeRows": "4119",
+          "Fields": [
+            {
+              "DatasetName": "__default",
+              "EntityName": "Banking_Batch",
+              "FieldName": "age",
+              "DataType": "INTEGER"
+            },
+            {
+              "DatasetName": "__default",
+              "EntityName": "Banking_Batch",
+              "FieldName": "job",
+              "DataType": "STRING"
+            },
+            {
+              "DatasetName": "__default",
+              "EntityName": "Banking_Batch",
+              "FieldName": "marital",
+              "DataType": "STRING"
+            },
+            {
+              "DatasetName": "__default",
+              "EntityName": "Banking_Batch",
+              "FieldName": "education",
+              "DataType": "STRING"
+            },
+            {
+              "DatasetName": "__default",
+              "EntityName": "Banking_Batch",
+              "FieldName": "default",
+              "DataType": "STRING"
+            },
+            {
+              "DatasetName": "__default",
+              "EntityName": "Banking_Batch",
+              "FieldName": "housing",
+              "DataType": "STRING"
+            },
+            {
+              "DatasetName": "__default",
+              "EntityName": "Banking_Batch",
+              "FieldName": "loan",
+              "DataType": "STRING"
+            },
+            {
+              "DatasetName": "__default",
+              "EntityName": "Banking_Batch",
+              "FieldName": "contact",
+              "DataType": "STRING"
+            },
+            {
+              "DatasetName": "__default",
+              "EntityName": "Banking_Batch",
+              "FieldName": "month",
+              "DataType": "STRING"
+            },
+            {
+              "DatasetName": "__default",
+              "EntityName": "Banking_Batch",
+              "FieldName": "day_of_week",
+              "DataType": "STRING"
+            },
+            {
+              "DatasetName": "__default",
+              "EntityName": "Banking_Batch",
+              "FieldName": "duration",
+              "DataType": "INTEGER"
+            },
+            {
+              "DatasetName": "__default",
+              "EntityName": "Banking_Batch",
+              "FieldName": "campaign",
+              "DataType": "INTEGER"
+            },
+            {
+              "DatasetName": "__default",
+              "EntityName": "Banking_Batch",
+              "FieldName": "pdays",
+              "DataType": "INTEGER"
+            },
+            {
+              "DatasetName": "__default",
+              "EntityName": "Banking_Batch",
+              "FieldName": "previous",
+              "DataType": "INTEGER"
+            },
+            {
+              "DatasetName": "__default",
+              "EntityName": "Banking_Batch",
+              "FieldName": "poutcome",
+              "DataType": "STRING"
+            },
+            {
+              "DatasetName": "__default",
+              "EntityName": "Banking_Batch",
+              "FieldName": "emp_var_rate",
+              "DataType": "FLOAT"
+            },
+            {
+              "DatasetName": "__default",
+              "EntityName": "Banking_Batch",
+              "FieldName": "cons_price_idx",
+              "DataType": "FLOAT"
+            },
+            {
+              "DatasetName": "__default",
+              "EntityName": "Banking_Batch",
+              "FieldName": "cons_conf_idx",
+              "DataType": "FLOAT"
+            },
+            {
+              "DatasetName": "__default",
+              "EntityName": "Banking_Batch",
+              "FieldName": "euribor3m",
+              "DataType": "FLOAT"
+            },
+            {
+              "DatasetName": "__default",
+              "EntityName": "Banking_Batch",
+              "FieldName": "nr_employed",
+              "DataType": "FLOAT"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

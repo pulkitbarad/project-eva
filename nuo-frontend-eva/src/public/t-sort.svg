@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="10px" viewBox="0 0 14 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>t-sort</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Icons" transform="translate(-241.000000, -239.000000)" stroke="#F89400" stroke-width="2">
+            <g id="Icons/t-sort" transform="translate(236.000000, 232.000000)">
+                <path d="M6,8 L12,8" id="Path-15"></path>
+                <path d="M6,12 L15,12" id="Path-15"></path>
+                <path d="M6,16 L18,16" id="Path-15"></path>
+            </g>
+        </g>
+    </g>
+</svg>

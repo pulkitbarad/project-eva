@@ -1,0 +1,125 @@
+2018-12-23 23:07:25.961:nuo-backend-nucleo:INFO:Find name of companies with country as France, Ireland, Netherlands or UK or city starts with Ams or Par or Ber or Transaction date is outside 12th apr 2016 and 2nd march 
+2018-12-23 23:07:25.976:nuo-backend-nucleo:INFO: SELECT DISTINCT name of companies FROM X WHERE (country = France OR country = Ireland OR country = Netherlands OR country = UK) OR (STARTS_WITH(UPPER(city), UPPER(Ams)) OR STARTS_WITH(UPPER(city), UPPER(Par)) OR STARTS_WITH(UPPER(city), UPPER(Ber))) OR (Transaction date < DATE '2016-4-12' OR Transaction date > DATE '2018-3-2')
+2018-12-23 23:07:25.983:nuo-backend-nucleo:INFO:
+[TOKENS]
+
+CMD_SELECT  Find 
+WORD name
+KWD_OF  of 
+WORD companies
+KWD_WITH  with 
+WORD country
+KWD_EQUAL_TO  as 
+WORD France
+SYM_COMMA , 
+WORD Ireland
+SYM_COMMA , 
+WORD Netherlands
+KWD_OR  or 
+WORD UK
+KWD_OR  or 
+WORD city
+KWD_STARTS_WITH  starts with 
+WORD Ams
+KWD_OR  or 
+WORD Par
+KWD_OR  or 
+WORD Ber
+KWD_OR  or 
+WORD Transaction
+WORD date
+POS_VERB  is 
+KWD_OUTSIDE outside 
+NUMBER 12
+KWD_TH th 
+KWD_MONTH_OF_YEAR apr 
+NUMBER 2016 
+KWD_AND and 
+NUMBER 2
+KWD_ND nd 
+KWD_MONTH_OF_YEAR march  
+EOF <EOF>
+
+2018-12-23 23:07:25.991:nuo-backend-nucleo:INFO:
+[PARSE-TREE]
+    ([] 
+      ([54]  Find  
+        ([73 54] 
+          ([78 73 54] 
+            ([1147 78 73 54] name  of  companies
+            )
+          )
+        )
+      )  with  
+      ([61] 
+        ([121 61] 
+          ([532 121 61] 
+            ([1147 532 121 61] country
+            )
+          )  as  
+          ([547 121 61] 
+            ([1147 547 121 61] France
+            )
+          ) ,  
+          ([550 121 61] 
+            ([1147 550 121 61] Ireland
+            )
+          ) ,  
+          ([550 121 61] 
+            ([1147 550 121 61] Netherlands
+            )
+          )  or  
+          ([550 121 61] 
+            ([1147 550 121 61] UK
+            )
+          )  or  
+          ([549 121 61] 
+            ([121 549 121 61] 
+              ([471 121 549 121 61] 
+                ([1147 471 121 549 121 61] city
+                )
+              )  starts with  
+              ([484 121 549 121 61] 
+                ([1147 484 121 549 121 61] Ams
+                )
+              )  or  
+              ([487 121 549 121 61] 
+                ([1147 487 121 549 121 61] Par
+                )
+              )  or  
+              ([487 121 549 121 61] 
+                ([1147 487 121 549 121 61] Ber
+                )
+              )  or  
+              ([486 121 549 121 61] 
+                ([121 486 121 549 121 61] 
+                  ([285 121 486 121 549 121 61] 
+                    ([1147 285 121 486 121 549 121 61] Transaction   date
+                    )
+                  ) 
+                  ([289 121 486 121 549 121 61]  is 
+                  ) outside  
+                  ([293 121 486 121 549 121 61] 
+                    ([1066 293 121 486 121 549 121 61] 
+                      ([277 1066 293 121 486 121 549 121 61] 
+                        ([684 277 1066 293 121 486 121 549 121 61] 12 th 
+                        ) apr  2016 
+                      )
+                    )
+                  ) and  
+                  ([295 121 486 121 549 121 61] 
+                    ([1066 295 121 486 121 549 121 61] 
+                      ([277 1066 295 121 486 121 549 121 61] 
+                        ([664 277 1066 295 121 486 121 549 121 61] 2 nd 
+                        ) march  
+                      )
+                    )
+                  )
+                )
+              )
+            )
+          )
+        )
+      )
+    )
+

@@ -1,0 +1,6 @@
+
+D:\NuoCanvas\Source_Code\nuo-frontend-eva\src>setlocal
+
+D:\NuoCanvas\Source_Code\nuo-frontend-eva\src>type js\app.js js\eva.js  1>js\combined.js 
+
+D:\NuoCanvas\Source_Code\nuo-frontend-eva\src>uglifyjs ./js/combined.js -c -m -o ./dist/app-min.js 

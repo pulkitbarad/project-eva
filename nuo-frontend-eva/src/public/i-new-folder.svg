@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="18px" viewBox="0 0 22 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons/i-new-folder</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons" transform="translate(-325.000000, -131.000000)" stroke="#F89400">
+            <g id="Icons/i-new-folder" transform="translate(324.000000, 128.000000)">
+                <g id="i-new-folder">
+                    <g id="Group-51" transform="translate(2.000000, 4.000000)" stroke-width="2">
+                        <g id="Group" transform="translate(7.000000, 6.000000)" stroke-linecap="round">
+                            <path d="M3,-2.19824159e-13 L3,5.97321429" id="Line-5"></path>
+                            <path d="M3,-2.19824159e-13 L3,5.97321429" id="Line-5" transform="translate(3.000000, 2.986607) rotate(90.000000) translate(-3.000000, -2.986607) "></path>
+                        </g>
+                        <path d="M8,0 L2,0 C0.89,0 0,0.89 0,2 L0,14 C0,15.1045695 0.8954305,16 2,16 L18,16 C19.1045695,16 20,15.1045695 20,14 L20,4 C20,2.89 19.1,2 18,2 L10,2 L8,0 Z" id="Path" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

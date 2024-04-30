@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="11px" viewBox="0 0 17 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>t-redo</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Icons" transform="translate(-944.000000, -238.000000)" stroke="#F89400">
+            <g id="Icons/t-redo" transform="translate(940.000000, 232.000000)">
+                <g id="Group" transform="translate(5.000000, 7.000000)">
+                    <polyline id="Rectangle" stroke-width="2" transform="translate(12.000000, 7.000000) rotate(-180.000000) translate(-12.000000, -7.000000) " points="14.8284271 8.41421356 12 5.58578644 9.17157288 8.41421356"></polyline>
+                    <path d="M12,6 C12,2.6862915 9.3137085,0 6,0 C2.6862915,0 0,2.6862915 0,6" id="Path" stroke-width="2"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

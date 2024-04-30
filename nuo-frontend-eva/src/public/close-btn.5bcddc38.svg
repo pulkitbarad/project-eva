@@ -1,0 +1,13 @@
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Get-a-demo-pop-up-01" transform="translate(-1048.000000, -166.000000)">
+            <g id="close-btn" transform="translate(1048.000000, 166.000000)">
+                <rect id="Rectangle-12-Copy-2" fill="#F89400" transform="translate(16.000000, 16.000000) scale(1, -1) translate(-16.000000, -16.000000) " x="0" y="0" width="32" height="32" rx="16"></rect>
+                <g id="Group-21-Copy-6" transform="translate(16.000000, 16.000000) rotate(90.000000) translate(-16.000000, -16.000000) translate(10.000000, 10.000000)" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="3">
+                    <polyline id="Path-12-Copy" points="0 0 6 6 0 12"></polyline>
+                    <polyline id="Path-12-Copy" transform="translate(9.000000, 6.000000) scale(-1, -1) translate(-9.000000, -6.000000) " points="6 0 12 6 6 12"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

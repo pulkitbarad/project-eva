@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="18px" viewBox="0 0 26 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons/i-upload</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons" transform="translate(-411.000000, -131.000000)" stroke="#F89400">
+            <g id="Icons/i-upload" transform="translate(412.000000, 128.000000)">
+                <g id="i-upload">
+                    <g id="Group-49" transform="translate(0.000000, 4.000000)" stroke-width="2">
+                        <path d="M19.35,6.03 C18.67,2.59 15.64,0 12,0 C9.11,0 6.6,1.64 5.35,4.03 C2.34,4.36 -1.77635684e-15,6.9 -1.77635684e-15,10 C-1.37054459e-15,13.3137085 2.6862915,16 6,16 L19,16 C20.3260824,16 21.597852,15.4732158 22.5355339,14.5355339 C23.4732158,13.597852 24,12.3260824 24,11 C24,8.36 21.95,6.22 19.35,6.03 Z" id="Path" fill-rule="nonzero"></path>
+                        <path d="M12,5 L12,12 L12,5 Z" id="Rectangle" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M12,5 L8.96875,8 L12,5 Z" id="Rectangle" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M15,5 L11.96875,8 L15,5 Z" id="Rectangle" stroke-linecap="round" stroke-linejoin="round" transform="translate(13.484375, 6.500000) scale(-1, 1) translate(-13.484375, -6.500000) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

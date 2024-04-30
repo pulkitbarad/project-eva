@@ -1,0 +1,30 @@
+{"AliasName":"Rabobank","AliasType":2,"Fields":[{"DatasetName":"","EntityName":"","FieldName":"'Rabobank'","DataType":"STRING"}],"UnaryExpressions":[]}
+{"AliasName":"Transaction Started at","AliasType":2,"Fields":[{"DatasetName":"__default","EntityName":"TransactionStatus","FieldName":"StartedAt","DataType":"Timestamp"}],"UnaryExpressions":[]}
+{"AliasName":"due","AliasType":2,"Fields":[{"DatasetName":"__default","EntityName":"Credit_Card","FieldName":"Amount_Due","DataType":"Float"}],"UnaryExpressions":[]}
+{"AliasName":"name of customers","AliasType":2,"Fields":[{"DatasetName":"__default","EntityName":"Customer","FieldName":"Name","DataType":"String"}],"UnaryExpressions":[]}
+{"AliasName":"credit card transaction","AliasType":2,"Fields":[{"DatasetName":"__default","EntityName":"Transaction","FieldName":"Transaction_number","DataType":"Integer"}],"UnaryExpressions":[]}
+{"AliasName":"transaction amounts","AliasType":2,"Fields":[{"DatasetName":"__default","EntityName":"Transaction","FieldName":"Amount","DataType":"Float64"}],"UnaryExpressions":[]}
+{"AliasName":"Transaction status started at","AliasType":2,"Fields":[{"DatasetName":"__default","EntityName":"TransactionStatus","FieldName":"StartedAt","DataType":"Timestamp"}],"UnaryExpressions":[]}
+{"AliasName":"current balance","AliasType":2,"Fields":[{"DatasetName":"__default","EntityName":"Account","FieldName":"Current_Balance","DataType":"Float"}],"UnaryExpressions":[]}
+{"AliasName":"amount","AliasType":2,"Fields":[{"DatasetName":"__default","EntityName":"Transaction","FieldName":"Amount","DataType":"Float64"}],"UnaryExpressions":[]}
+{"AliasName":"120XXX234","AliasType":2,"Fields":[{"DatasetName":"","EntityName":"","FieldName":"'120XXX234'","DataType":"STRING"}],"UnaryExpressions":[]}
+{"AliasName":"tranasction number","AliasType":2,"Fields":[{"DatasetName":"__default","EntityName":"Transaction","FieldName":"Transaction_number","DataType":"Integer"}],"UnaryExpressions":[]}
+{"AliasName":"transaction amount","AliasType":2,"Fields":[{"DatasetName":"__default","EntityName":"Transaction","FieldName":"Amount","DataType":"Float64"}],"UnaryExpressions":[]}
+{"AliasName":"their average transaction amount","AliasType":2,"Fields":[{"DatasetName":"__default","EntityName":"Transaction","FieldName":"Amount","DataType":"Float64"}],"UnaryExpressions":[]}
+{"AliasName":"in BOA Bank","AliasType":5,"Fields":[],"UnaryExpressions":[{"LeftField":{"DatasetName":"__default","EntityName":"Bank","FieldName":"Name","DataType":"String"},"RightExpText":"BOA"}]}
+{"AliasName":"their Department Name","AliasType":2,"Fields":[{"DatasetName":"__default","EntityName":"Department","FieldName":"Name","DataType":"String"}],"UnaryExpressions":[]}
+{"AliasName":"valid credit card","AliasType":2,"Fields":[{"DatasetName":"__default","EntityName":"Credit_Card","FieldName":"is_valid","DataType":"Boolean"}],"UnaryExpressions":[]}
+{"AliasName":"Human Resource","AliasType":2,"Fields":[{"DatasetName":"","EntityName":"","FieldName":"'Human Resource'","DataType":"STRING"}],"UnaryExpressions":[]}
+{"AliasName":"Department Name","AliasType":2,"Fields":[{"DatasetName":"__default","EntityName":"Department","FieldName":"Name","DataType":"String"}],"UnaryExpressions":[]}
+{"AliasName":"in  BOA Bank","AliasType":5,"Fields":[],"UnaryExpressions":[{"LeftField":{"DatasetName":"__default","EntityName":"Bank","FieldName":"Name","DataType":"String"},"RightExpText":"BOA"}]}
+{"AliasName":"all credit card holders","AliasType":2,"Fields":[{"DatasetName":"__default","EntityName":"Credit_Card_Holder","FieldName":"Name","DataType":"String"}],"UnaryExpressions":[]}
+{"AliasName":"closes","AliasType":2,"Fields":[{"DatasetName":"__default","EntityName":"Branch","FieldName":"Office_Closing_Time","DataType":"Time"}],"UnaryExpressions":[]}
+{"AliasName":"founded","AliasType":2,"Fields":[{"DatasetName":"__default","EntityName":"Bank","FieldName":"Founded_On","DataType":"Date"}],"UnaryExpressions":[]}
+{"AliasName":"customers","AliasType":2,"Fields":[{"DatasetName":"__default","EntityName":"Customer","FieldName":"Name","DataType":"String"}],"UnaryExpressions":[]}
+{"AliasName":"bank name","AliasType":2,"Fields":[{"DatasetName":"__default","EntityName":"Bank","FieldName":"Name","DataType":"String"}],"UnaryExpressions":[]}
+{"AliasName":"account start date","AliasType":2,"Fields":[{"DatasetName":"__default","EntityName":"Account","FieldName":"Start_Date","DataType":"Timestamp"}],"UnaryExpressions":[]}
+{"AliasName":"account balance","AliasType":2,"Fields":[{"DatasetName":"__default","EntityName":"Account","FieldName":"Current_Balance","DataType":"Float"}],"UnaryExpressions":[]}
+{"AliasName":"name","AliasType":2,"Fields":[{"DatasetName":"__default","EntityName":"Bank","FieldName":"Name","DataType":"String"}],"UnaryExpressions":[]}
+{"AliasName":"number","AliasType":2,"Fields":[{"DatasetName":"__default","EntityName":"Contact","FieldName":"Office_Phone","DataType":"String"}],"UnaryExpressions":[]}
+{"AliasName":"contact of banks","AliasType":2,"Fields":[{"DatasetName":"__default","EntityName":"Contact","FieldName":"Email","DataType":"String"}],"UnaryExpressions":[]}
+{"AliasName":"open officially","AliasType":2,"Fields":[{"DatasetName":"__default","EntityName":"Branch","FieldName":"Office_Opening_Time","DataType":"Time"}],"UnaryExpressions":[]}

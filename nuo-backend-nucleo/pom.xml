@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.nuocanvas.backend</groupId>
+    <artifactId>nuo-backend-nucleo</artifactId>
+    <version>1.0</version>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.6</source>
+                    <target>1.6</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+
+    <dependencies>
+
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-library</artifactId>
+            <version>2.11.10</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-reflect</artifactId>
+            <version>2.11.10</version>
+        </dependency>
+
+        <!--Lift Json -->
+        <dependency>
+            <groupId>net.liftweb</groupId>
+            <artifactId>lift-json_2.11</artifactId>
+            <version>3.0.1</version>
+        </dependency>
+
+
+        <!--HTTP client-->
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+            <version>4.5.2</version>
+        </dependency>
+
+        <!--Google Bigquery-->
+        <dependency>
+            <groupId>com.google.cloud</groupId>
+            <artifactId>google-cloud-bigquery</artifactId>
+            <version>0.8.0-beta</version>
+        </dependency>
+
+        <!--Google Cloud Storage -->
+        <dependency>
+            <groupId>com.google.cloud</groupId>
+            <artifactId>google-cloud-storage</artifactId>
+            <version>0.8.0-beta</version>
+        </dependency>
+
+        <!--AWS Lambda-->
+        <dependency>
+            <groupId>com.amazonaws</groupId>
+            <artifactId>aws-lambda-java-core</artifactId>
+            <version>1.1.0</version>
+        </dependency>
+
+        <!--AWS S3-->
+        <!--Known conflict with google cloud core sdk for jackson library of -->
+        <dependency>
+            <groupId>com.amazonaws</groupId>
+            <artifactId>aws-java-sdk-s3</artifactId>
+            <version>1.11.118</version>
+        </dependency>
+        <dependency>
+            <groupId>com.amazonaws</groupId>
+            <artifactId>aws-java-sdk-machinelearning</artifactId>
+            <version>1.11.118</version>
+        </dependency>
+        <dependency>
+            <groupId>com.amazonaws</groupId>
+            <artifactId>aws-java-sdk-dynamodb</artifactId>
+            <version>1.11.118</version>
+        </dependency>
+
+        <!--Google Cloud Transfer Service -->
+        <dependency>
+            <groupId>com.google.apis</groupId>
+            <artifactId>google-api-services-storagetransfer</artifactId>
+            <version>v1-rev12-1.22.0</version>
+        </dependency>
+
+        <!--ANTLR Runtime-->
+        <dependency>
+            <groupId>org.antlr</groupId>
+            <artifactId>antlr4-runtime</artifactId>
+            <version>4.7</version>
+        </dependency>
+
+        <!--Apache Commons-text for approximate string matching-->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-text</artifactId>
+            <version>1.2</version>
+        </dependency>
+
+        <!--Java mail SDK-->
+        <dependency>
+            <groupId>com.sun.mail</groupId>
+            <artifactId>javax.mail</artifactId>
+            <version>1.5.5</version>
+        </dependency>
+
+        <!--Google Cloud Iam Service -->
+        <dependency>
+            <groupId>com.google.apis</groupId>
+            <artifactId>google-api-services-iam</artifactId>
+            <version>v1-rev212-1.22.0</version>
+        </dependency>
+
+        <!--Google Cloud Storage Service -->
+        <dependency>
+            <groupId>com.google.apis</groupId>
+            <artifactId>google-api-services-storage</artifactId>
+            <version>v1-rev110-1.22.0</version>
+        </dependency>
+
+        <!--Google Cloud Text to Speech-->
+        <!-- https://mvnrepository.com/artifact/com.google.apis/google-api-services-texttospeech -->
+        <dependency>
+            <groupId>com.google.apis</groupId>
+            <artifactId>google-api-services-texttospeech</artifactId>
+            <version>v1-rev16-1.22.0</version>
+        </dependency>
+
+        <!--Amazon Polly dependency-->
+        <dependency>
+            <groupId>com.amazonaws</groupId>
+            <artifactId>aws-java-sdk-polly</artifactId>
+            <version>1.11.118</version>
+        </dependency>
+
+
+        <!--<dependency>-->
+        <!--<groupId>org.apache.poi</groupId>-->
+        <!--<artifactId>poi</artifactId>-->
+        <!--<grammarName>3.17</grammarName>-->
+        <!--</dependency>-->
+
+        <!--Test data generator. Should be removed from Production code-->
+        <dependency>
+            <groupId>org.fluttercode.datafactory</groupId>
+            <artifactId>datafactory</artifactId>
+            <version>0.8</version>
+            <type>jar</type>
+        </dependency>
+
+        <!--JDBC drivers-->
+        <!-- https://mvnrepository.com/artifact/org.postgresql/postgresql -->
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>42.2.4</version>
+        </dependency>
+
+
+    </dependencies>
+</project>

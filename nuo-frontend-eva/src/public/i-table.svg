@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="24px" viewBox="0 0 23 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons/i-table</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons" transform="translate(-588.000000, -128.000000)">
+            <g id="Icons/i-table" transform="translate(588.000000, 128.000000)">
+                <g id="i-table" transform="translate(0.000000, 1.000000)">
+                    <g id="Group-54" transform="translate(1.000000, 0.000000)">
+                        <path d="M15,16 L7.76470588,16 C6.79008574,16 6,15.0448741 6,13.8666667 L6,2.13333333 C6,0.955125867 6.79008574,4.53280779e-16 7.76470588,2.36847579e-16 L19.2352941,0 C20.2099143,-2.164332e-16 21,0.955125867 21,2.13333333 L21,9" id="Path" stroke="#F89400" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" transform="translate(13.500000, 8.000000) scale(-1, 1) translate(-13.500000, -8.000000) "></path>
+                        <rect id="Rectangle" fill="#F89400" x="7" y="0" width="14" height="2"></rect>
+                        <path d="M16,1 L16,15" id="Line-4" stroke="#F89400" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M11,1 L11,12" id="Line-4" stroke="#F89400" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M7,6 L21,6" id="Line-4" stroke="#F89400" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M10,11 L21,11" id="Line-4" stroke="#F89400" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <g id="Plus" transform="translate(6.000000, 16.000000) rotate(90.000000) translate(-6.000000, -16.000000) translate(0.000000, 10.000000)" stroke="#F89400" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                            <circle id="Oval" cx="6" cy="6" r="6"></circle>
+                        </g>
+                        <g id="Arr" transform="translate(6.000000, 16.500000) rotate(90.000000) translate(-6.000000, -16.500000) translate(2.500000, 13.500000)" stroke="#F89400" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                            <path d="M3.03125,0 L3.03125,6 L3.03125,0 Z" id="Rectangle"></path>
+                            <path d="M3.03125,4.15223411e-14 L-1.7119639e-13,3 L3.03125,4.15223411e-14 Z" id="Rectangle"></path>
+                            <path d="M6.03125,4.15223411e-14 L3,3 L6.03125,4.15223411e-14 Z" id="Rectangle" transform="translate(4.515625, 1.500000) scale(-1, 1) translate(-4.515625, -1.500000) "></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

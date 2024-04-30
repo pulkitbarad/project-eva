@@ -1,0 +1,1 @@
+geometric-watch-153714:scio_bigquery_staging_us.scio_query_20170628184330_375287743

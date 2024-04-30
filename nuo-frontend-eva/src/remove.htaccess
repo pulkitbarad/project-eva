@@ -1,0 +1,18 @@
+# Deny access to .htaccess
+<Files .htaccess>
+Order allow, deny
+Deny from all
+</Files>
+
+# Disable directory browsing 
+Options -Indexes
+
+# Hide the contents of directories
+IndexIgnore *
+
+# Deny access to files within public directory
+<FilesMatch "^public.*">
+Order allow, deny
+Deny from all
+
+</FilesMatch>

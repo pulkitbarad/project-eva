@@ -1,0 +1,113 @@
+Find 'First name', "last name", contact, address, phone for customers with no access to special requests above 10K
+Find 'First name', last name, contact, address, phone for customers who have no access to special requests above 10K
+Find 'First name', last name, contact, address, phone for customers who have no (access to special requests is true)
+Find 'Brand Name', 'Make year', power, price and color of cars of which  maintanance cost > 1000 and price is less than 35000 euro
+Find name, salay, 'department name' and performanceIndex of employees with age < 30 
+Find name, salay, 'department name' and performanceIndex of employees that are younger than 30 
+Find name and 'head of department' of departments which have employee count > 100 
+Find name, salay, 'department name' and performanceIndex of employees that are younger than 30 
+Find name and 'head of department' of departments which could not be approached by more than 1000 employees 
+Find name and 'home address and zip code', employees who haven't been hired by more than 1000 companies 
+Find name and 'head of department' of departments which didn't hire more than 1000 employees 
+Find name and 'head of department' of departments that did hire more than 1000 employees 
+Find name and 'head of department' of departments with more than 1000 employees 
+Find name and 'head of department' of departments which wont be approached by more than 1000 employees 
+Find name and 'head of department' of departments which hired more than 1000 employees 
+Find name and 'head of department'  who don't have more than 1000 employees 
+Find name and 'head of department' of departments which will hire more than 1000 employees 
+Find name and 'head of department' of departments which should hire more than 1000 employees 
+Find name and 'head of department' of departments which shant hire more than 1000 employees 
+Find name and 'head of department' of departments which wont hire more than 1000 employees and of which rating is same as required rating
+Find Brand Name, Make year, power, price and color of cars that had maintanance cost > 1000 and price less than 35000 euro
+Select Last year s salary,  column 2,  column_3 and column_that_5 and column6 where front to back length beyond 30 meter or total weight is more than 1200 kilograms and has front end drive as true
+Find Last year s salary and column_that_5 that do not have  front to back length that is beyond 30 meter OR (total weight is more than 1200 kilograms and has front end drive as true)
+Find Column name 1, 'column 2,3,4', column_3, column_that_5 and column6 with '1' less than 2 or '3' equal to false or '4' is less than 5
+Find me Column name 1 ,'column with 2', column_3 column_that_5 and column6 with '1' is less than or = 2 AND ('3' equal to false or salary was lesser than 10K )or (pastSalary equaled 5K AND (age < = 30 AND (rank is above 12 or commuteDistance is longer than '21 km')))
+Get me Column name 1,'column with 2', column_3, column_that_5 and column6 with '1' is less than or = 2 AND ('3' equal to false or salary was lesser than 10K ) or (pastSalary equaled 5K AND ((age <=30 AND (rank is above 12 or commuteDistance is longer than 21 kilo meter)) OR 'future salary' will be more than 120K))
+Find name, number, formula(a,(b+c)) and contact of companies which had impact on budget larger than 10 B or that has smaller than .10 scalling index
+Find name, number, telephone of employees that would not spend more than 10K on learning or (had motto equal to 'less is equal to more' and did have earning same as previous financial year)
+Get me all details for Departments that could have attracted less than 100 customers or did not have more than 10 employees
+Find First name, last name, contact, address, phone for customers with more than 10M in dues 
+Find First name, last name, contact, address, phone for customers with more than 10 T queries
+Find First name, last name, contact, address, phone for customers with more than 10 Trillion queries
+Find First name, last name, contact, address, phone for customers with more than 10 B queries
+Find First name, last name, contact, address, phone for customers with more than 10MiLLIons queries
+Find First name, last name, contact, address, phone for customers with more than 10 Mn queries
+Find First name, last name, contact, address, phone for customers with more than .410 Bn queries
+Find First name, last name, contact, address, phone for customers with more than 10 thousand queries
+Find First name, last name, contact, address, phone for customers with more than 20.4K queries
+Find First name, last name, contact, address, phone for customers with more than 10. M queries
+Find First name, last name 12, contact, address, phone for customers who didn't have any dues as true and (penalty or more than 10K queries or last year sale was lesser than 20M )
+Find 'Brand Name', 'Make year', power, price and color of cars of which  maintenance cost > 1000 and less than 35000 queries
+Find 'Brand Name', 'Make year', power, price and color of cars of which  maintenance cost > 1000 and count_queries is less than 35000 queries
+Find First name, last name, contact, address, phone for products with more than 10 M sales
+Find 'Brand Name', 'Make year', power, price and color of cars with more than 200 horse power of engine or "doors and windows" same as ferrari
+Find 'Brand Name', 'Make year', power, price and color of cars with as many as 135 'horse power or power' or "doors and windows" same as 'black and white'
+Find First name, last name, contact, address, phone for customers with more than 10 M in sum of transaction
+Find First name, last name, contact, address, phone for customers who have more than 10 M in total sum of sales transaction or sales transaction is more than 10K
+Find First name, last name, contact, address, phone for customers that have more than 10 M in total sum of sales transaction or sales transaction is more than 10K
+Find First name, last name, contact, address, phone for customers with more than 10 M total sales
+Find First name, last name, largest expense, address, phone for customers with more than 10 M in total sum of sales or largest expense that is larger than 10 M
+Find First name, last name, contact, address, phone for customers with more than 10 M in sum of sales
+Find First name, last name, contact, address, phone for customers with more than 10 M in sales
+Find First name, last name, contact, address, summation of transactions for customers with more than 10 M in average sales
+Find First name, last name, contact, address, smallest possible transcation for customers with more than 10 M in min sales
+Find First name, last name, contact, address, phone for customers who do not have 10 M in max sales
+Find First name, last name, contact, address, phone for customers with more than 10 M in mean sales
+Find First name, last name, contact, address, phone for customers with more than 10 M in total number of sales
+Find First name, last name, contact, address, phone for customers with cars as many as 20
+Find First name, last name, contact, address, phone for customers with number employees as many as 20
+Find First name, last name, contact, address, phone for customers with number of bill amount as many as 100K
+Find First name, last name, contact, address, phone for customers with average bill amount as much as 10
+Find First name, last name, contact, address, phone for customers with bill amount as high as 100K
+Find First name, last name, contact, address, phone for customers with temperature as low as 10
+Find First name, last name, contact, address, phone for customers with least of all transactions higher than 100
+Find 'Brand Name', 'Make year', power, price and color of cars with more than 10 total 'distance travelled in km' or "doors and windows" same as 'black and white'
+Find name, state, year and sum of numbers with numbers same as 10K or state as NY
+Find name, state, year and numbers with numbers same as 10K or state as NY
+Find name, state, year and sum of numbers with more than 480K in number of 'numbers' or 'number' is more than 10K
+Find name, state, year and sum of numbers with more than 480K in gross 'sales' or ('number' is more than 10K AND condition2 is true OR (condition3 is true AND condition4 is true))
+Find name, state, year and numbers with more than 480K in count of 'numbers' or ('number' is more than 10K AND condition2 is true OR (condition3 is true AND condition4 is true))
+Find name, state, year and sum of numbers with more than 480K in 'numbers' or ('number' is more than 10K AND condition2 is true OR (condition3 is true AND condition4 is true))
+Find name, state, year and numbers total with more than 480K in 'numbers' or ('number' is more than 10K AND condition2 is true OR (condition3 is true AND condition4 is true))
+Find customers who are not active and should not be (who do not have more than 10M in transaction total or with no ( dues that are pending AND delay that have not been approved as true))
+Find customers who are not active but have (more than 10M in transaction total or ( had dues that had pending as true AND for which delay had not been approved as true))
+Find name, number, 'formula(a,(b+c))' and contact of companies which had impact on budget larger than 10 B or that has smaller than .10 scaling index
+Find name, number, total quarterly profits and contact of companies of which do not (with no gross profit between .6 M  and 0.75 M or exceeded 1B in sales)
+Find name, number, 'formula(a,(b+c))' and contact of companies which had gross revenue between limit set by central bank as true and limit set by IMF
+Find name, number, 'formula(a,(b+c))' and contact of companies which had impact on budget larger than or equal 10 B or that has smaller than and equal to .10 scaling index or of which the risk factor is between .6 and 0.75
+Find name, number, 'formula(a,(b+c))' and contact of companies which have expenses upto 10 M
+Find name, number, 'formula(a,(b+c))' and contact of companies which are operating since 2010
+Find name, number, 'formula(a,(b+c))' and contact of companies which are operating since 2010 until 2015
+Find name, number, 'formula(a,(b+c))' and contact of companies which are operating since 2010 until 2015
+Find name, number, 'formula(a,(b+c))' and contact of companies which operated since 2010 until 2015
+Find name, number, 'formula(a,(b+c))' and contact of products which were purchased and sold until 2015
+Find name, number and contact of companies that have 10 M in operating revenue and profit margin above 10 percent and operating date is valid since last 10 years
+Find name, number and contact of companies that had 10 M in operating revenue and (profit margin above 10 percent or loss less than 20% or did not go bankrupt until 2015)
+Find name, number and contact of companies that have (max of 10 M in operating revenue and (profit margin above 10 percent or loss less than 20%)) and closing date is not valid until next 10 years
+Find name of companies with col= 1980, Feb 2nd and col= 2012, September 22nd and col=1995-06-12 and col = 1991-Apr-26
+Find name of companies with col = 3rd of April 2015 and col= 10 Feb 1950 and col = 2015 12th of Jan and col= 1980 2nd February
+Find name of companies with col = 1764-7-4 11:42:36PM and col = 13:43:12.325467 and col = 13:43 GMT-5:30 and col = 13:43.5Z and col = Jan 31st, 2015 and col =  January 10 15
+Find name of companies with col = 1764-12-31 23:42:36 GMT-5:30 and col = 1764-01-1 00:12:36 UTC+5:30 and col = April, 12 and col = April 12 and col = 15 June and col  = 15, Jun
+Find name of companies with col = April 12 and col = April 36 and col = 15 June and col  = 15, Jun and col = April 12 2018
+Find name of companies that have started in April or have profit margins above 10 M and registered until Dec 2015
+Find name, number and contact of companies which are founded in year 2010 and has '2nd year sales' of 10 M or have not launched on April 6th or reported at 5:35 PM
+Find name, number and contact of companies which are founded after year 2010 or have not launched earlier than April 6th or reported 6 years ago
+Find credit cards holders and max transaction amount with "credit card valid until" earlier than next year
+Get me credit card type, bank name, average transaction amount and their latest transaction date with country as Netherlands and latest transaction date earlier than 2008
+Find name, number and contact of companies that have expiry date in 2 years from now but also registration date earlier than last 2 years and setup date from yesterday and latest transaction was not later than 12th June 2 AM
+Find substring of xyz from 1 to 12, rank of Customer based on salary in each department and their contact, correlation between address and phone, phone who have no access to special requests and some dues
+Find top 5 Customers ordered by salary from each department and their contact, address, phone who have no access to special requests are true and some dues as true
+Find last 2 Customers sorted using salary per department and their contact, address, phone who have no access to special requests are true and some dues was true
+Find 2nd last Company from each category sorted by their sales volume, their contact, md5 of address, exponential of phone, average salary with revenue above 10M
+Find 2nd highest Company name based on workforce, following company name based on revenue and leading Company from each category sorted by their sales volume, their contact, address, phone, average salary with revenue above 10M
+Find 2nd highest Company name according to their workforce count per country,their phone of which part of company name from 2 starts with 'Abc' and company name containing 'def' and division of 10 million by 20K is 2
+Find details of Sales,full_name and rank of company based on revenue per state and phone for whom company name does not contain 'x'
+Find details of Sales and Product details, company name of which company name does not contain 'x'
+Show 2nd highest Company name according to their workforce count per country,their phone of which part of company name from 2 starts with 'Abc' and company name containing 'def' and division of 10 million by 20K is 2
+Find last 2 Customers per department sorted using salary, total revenue per department and July 12th 2pm - 3 days with a > b
+What is the division of (((12/3) - 5) ^ (10 % 6)) by 23, (md5 of full_name) - '_' and correlation between address and phone for whom company name does not contain 'x' and substring of (first name) from 1 to 12) does not start with col22
+Find 3 years and 5 months + March 31, 2018  that have col= 1980, Feb 2nd + 2 months and (12th june 16 - 5 days) < 2012, September 22nd - 2 months and 6 days and col=1995-06-12 and col11 from 2 years ago but also average 10M in revenue
+Find [Customer][Name][String],[Customer][Category][String] , total [Customer][Transaction][Int64] and rank of [Customer][Name][String] based on [Customer][Revenue][Float64] by [Customer][Department][String] for whom [Customer][Start_Date][Date] is 2016  but without [Sales][Id][String]
+Find [Customer][Name][String], [Customer][Country][String],[Customer][Category][String] , total [Customer][Transaction][Int64] and top 5 [Customer][Name][String] based on avg [Customer][Revenue][Float64] by [Customer][Department][String] for whom [Customer][Start_Date][Date] is  2018 and when [Customer][Balance][Int64] is above 12.5K without 'Netherlands' in [Sales][Id][String] and total [Sales][Amount][Float64] is above 10.5K
+Find [Customer][Name][String] and total [Transaction][Duration][Int64] by substring of [Customer][Transaction_number][String] from 2 until 6 + '_1' when [Customer][Name][String] is 'Pulkit' with outside 10K and 20K in total sales and rating outside 2.5 and 4

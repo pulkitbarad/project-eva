@@ -1,0 +1,238 @@
+curl -d '' -H "Content-Type: application/json" -X POST http://:8080/CheckStatus
+curl -d '' -H "Content-Type: application/json" -X POST http://localhost:5656/CheckStatus
+
+
+####################[START] Apache ################
+
+sudo apt update
+sudo apt install apache2
+sudo systemctl status apache2
+sudo mkdir -p /var/www/eva.nuocanvas.ai/html
+sudo nano /var/www/eva.nuocanvas.ai/html/index.html
+sudo nano /etc/apache2/sites-available/eva.nuocanvas.ai.conf
+##
+<VirtualHost *:80>
+    ServerAdmin admin@nuocanvas.com
+    ServerName eva.nuocanvas.ai
+    ServerAlias www.eva.nuocanvas.ai
+    DocumentRoot /var/www/eva.nuocanvas.ai/html
+    ErrorLog ${APACHE_LOG_DIR}/error.log
+    CustomLog ${APACHE_LOG_DIR}/access.log combined
+</VirtualHost>
+##
+sudo a2ensite eva.nuocanvas.ai.conf
+sudo a2dissite 000-default.conf
+sudo apache2ctl configtest
+sudo service apache2 reload
+sudo systemctl restart apache2
+
+####################[END] Apache ################
+
+####################[START] SSL ################
+sudo add-apt-repository ppa:certbot/certbot
+sudo apt install python-certbot-apache
+sudo certbot --apache -d eva.nuocanvas.ai
+####################[END] SSL ################
+
+####################[START] Node.js ################
+sudo gsutil cp gs://deployment-nuocanvas-com/nuo-backend-server/jdk-8u181-linux-x64.tar.gz /home/nuocanvas/nuo-backend-server/java/
+cd /home/nuocanvas/nuo-backend-server/java/
+sudo tar xzvf /home/nuocanvas/nuo-backend-server/java/jdk-8u181-linux-x64.tar.gz
+export PATH=$PATH:/home/nuocanvas/nuo-backend-server/java/jdk1.8.0_181/bin/
+cd /tmp
+sudo wget http://nodejs.org/dist/v6.3.1/node-v6.3.1-linux-x64.tar.gz
+sudo tar xvfz node-v6.3.1-linux-x64.tar.gz
+sudo mkdir -p /home/nuocanvas/nodejs
+sudo mv node-v6.3.1-linux-x64/* /home/nuocanvas/nodejs
+export PATH=$PATH:/home/nuocanvas/nodejs/bin
+cd /home/nuocanvas/nodejs
+sudo apt-get update
+sudo mkdir -p /home/nuocanvas/nuo-backend-server/
+sudo mkdir -p /home/nuocanvas/nuo-backend-server/.well-known/acme-challenge
+cd /home/nuocanvas/nuo-backend-server/
+sudo apt-get install npm
+sudo npm install express --save
+sudo npm install body-parser --save
+sudo npm install cookie-parser --save
+sudo npm install multer --save
+sudo npm install axios --save
+sudo nano /home/nuocanvas/nuo-backend-server/server.js
+###
+// Dependencies
+const express = require('express');
+
+// Configure & Run the http server
+const app = express();
+
+app.use(express.static(__dirname, { dotfiles: 'allow' } ));
+
+app.listen(80, () => {
+  console.log('HTTP server running on port 80');
+});
+###
+
+###
+// Dependencies
+const fs = require('fs');
+const http = require('http');
+const https = require('https');
+const express = require('express');
+const axios = require('axios');
+const bodyParser = require('body-parser');
+
+const app = express();
+
+// Certificate
+const privateKey = fs.readFileSync('/etc/letsencrypt/live/eva.nuocanvas.ai/privkey.pem', 'utf8');
+const certificate = fs.readFileSync('/etc/letsencrypt/live/eva.nuocanvas.ai/cert.pem', 'utf8');
+const ca = fs.readFileSync('/etc/letsencrypt/live/eva.nuocanvas.ai/chain.pem', 'utf8');
+
+const credentials = {
+	key: privateKey,
+	cert: certificate,
+	ca: ca
+};
+
+//app.use((req, res) => {
+//	res.send('Hello there !');
+//});
+
+//app.enable("trust proxy");
+app.use(express.static(__dirname+'/dist'));
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({
+  extended: true
+}));
+// Starting both http & https servers
+const httpServer = http.createServer(app);
+const httpsServer = https.createServer(credentials, app);
+
+// set up a route to redirect http to https
+app.get('*', function(req, res) {  
+	if(!req.secure){
+		res.redirect('https://' + req.headers.host + req.url);
+	}else{
+		console.log(req.url);
+		res.sendFile(__dirname+"/dist/index.html");
+	}
+})
+
+app.post('*', function(req, res) {  
+	if(!req.secure){
+		res.redirect('https://' + req.headers.host + req.url);
+	}else{
+		if(req.url.indexOf("CheckStatus")>=0){
+
+			axios.post("http://localhost:5656/CheckStatus", req.body)
+				.then((localResponse) => {
+					if(localResponse.status){
+						res.status(localResponse.status);
+					} 
+						res.send(localResponse.data);
+				})
+				.catch((error) => {
+					if (error.message) {
+						res.send(error.message);
+  				} else {
+						res.send('-1');
+					}
+				})
+		}else if(req.url.indexOf("v1")>=0){
+			axios.post("http://localhost:5656/v1", req.body)
+				.then((localResponse) => {
+					if(localResponse.status){
+						res.status(localResponse.status);
+					}
+						res.send(localResponse.data);
+				})
+				.catch((error) => {
+					if (error.message) {
+						res.send(error.message);
+  				} else {
+						res.send('-1');
+					}
+				})
+		}
+	}
+})
+
+httpServer.listen(80, () => {
+	console.log('HTTP Server running on port 80');
+});
+
+httpsServer.listen(443, () => {
+	console.log('HTTPS Server running on port 443');
+});
+
+###
+####################[END] Node.js ################
+
+####################[START] SSL ################
+#https://itnext.io/node-express-letsencrypt-generate-a-free-ssl-certificate-and-run-an-https-server-in-5-minutes-a730fbe528ca
+sudo add-apt-repository ppa:certbot/certbot
+sudo apt-get update
+sudo apt-get install certbot
+sudo certbot certonly --manual
+####################[END] SSL ################
+
+
+
+
+####################[START] Bootstrap ################
+
+#! /bin/bash
+sudo mkdir -p /home/nuocanvas/nuo-backend-server/java
+sudo mkdir -p /home/nuocanvas/nuo-backend-server/dist
+sudo mkdir -p /home/nuocanvas/nuo-backend-server/dist/public
+sudo mkdir -p /home/nuocanvas/nuo-backend-server/dist/js
+sudo mkdir -p /home/nuocanvas/nuo-backend-server/dist/css
+sudo mkdir -p /home/nuocanvas/nuo-backend-server/dist/lib
+
+sudo gsutil cp -r gs://deployment-nuocanvas-com/nuo-backend-server/dist/* /home/nuocanvas/nuo-backend-server/dist/
+cd /home/nuocanvas/nuo-backend-server/
+sudo nohup node /home/nuocanvas/nuo-backend-server/server.js &
+
+sudo gsutil cp gs://deployment-nuocanvas-com/nuo-backend-server/nuo-backend-nucleo.jar /home/nuocanvas/nuo-backend-server/java/
+cd /home/nuocanvas/nuo-backend-server/java/
+ps -ax | grep jar
+sudo nohup /home/nuocanvas/nuo-backend-server/java/jdk1.8.0_181/bin/java -jar /home/nuocanvas/nuo-backend-server/java/nuo-backend-nucleo.jar &
+sudo tail -f -n 100 /home/nuocanvas/nuo-backend-server/java/nuo-backend-nucleo/logs/
+####################[END] Bootstrap ##################
+
+######################################################
+######################################################
+######################################################
+####################[START] Port forwarding ##########
+
+sudo nano /etc/apache2/sites-available/eva.nuocanvas.ai.conf
+###
+<VirtualHost *:80> 
+  ProxyPreserveHost On
+  ProxyRequests Off
+  ServerName www.example.com
+  ServerAlias example.com
+  ProxyPass / http://localhost:8080/
+  ProxyPassReverse / http://localhost:8080/
+</VirtualHost> 
+###
+sudo a2enmod proxy
+sudo a2enmod proxy_http
+sudo service apache2 reload
+sudo systemctl restart apache2
+sudo /usr/sbin/setsebool -P httpd_can_network_connect 1
+
+####
+
+sudo apt-get update
+sudo apt-get install iptables-persistent
+ip -4 addr show scope global
+sudo nano /etc/sysctl.conf
+sudo sysctl -p
+sudo sysctl --system
+
+
+sudo iptables -t nat -I PREROUTING -p tcp --dport 443 -j DNAT --to 127.0.0.1:5656
+sudo iptables -t nat -I PREROUTING -p tcp --dport 80 -j DNAT --to 127.0.0.1:5656
+sudo sysctl -w net.ipv4.conf.all.route_localnet=1
+
+####################[END] Port forwarding ############
